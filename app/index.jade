@@ -1,0 +1,77 @@
+!!! 5
+//if lt IE 7
+  html.no-js.lt-ie9.lt-ie8.lt-ie7  
+//if IE 7
+  html.no-js.lt-ie9.lt-ie8  
+//if IE 8
+  html.no-js.lt-ie9  
+// [if gt IE 8] <!
+html.no-js
+  // <![endif]
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+    title
+    meta(name='description', content='')
+    meta(name='viewport', content='width=device-width')
+    // Place favicon.ico and apple-touch-icon.png in the root directory
+    // build:css({.tmp,app}) styles/main.css
+    link(rel='stylesheet', href='styles/main.css')
+    // endbuild
+  body(ng-app='baseApp')
+    //if lt IE 7
+      p.chromeframe
+        | You are using an outdated browser.
+        a(href='http://browsehappy.com/') Upgrade your browser today
+        | or
+        a(href='http://www.google.com/chromeframe/?redirect=true') install Google Chrome Frame
+        | to better experience this site.
+    //if lt IE 9
+      script(src='vendors/es5-shim/es5-shim.js')
+      script(src='vendors/json3/lib/json3.min.js')
+
+
+    h1 let's see if it is related to the other task
+
+    ul
+      li
+        a(href='/') home
+      li
+        a(href='/#/partial1') partial1
+      li
+        a(href='/#/partial2') partial2
+
+    // Add your site or application content here
+    .container(ng-view='')
+    // Google Analytics: change UA-XXXXX-X to be your site's ID.
+    script
+      var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src='//www.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'));
+    script(src='vendors/jquery/jquery.js')
+    script(src='vendors/angular/angular.js')
+    // build:js scripts/plugins.js
+    script(src='vendors/bootstrap-sass/js/bootstrap-affix.js')
+    script(src='vendors/bootstrap-sass/js/bootstrap-alert.js')
+    script(src='vendors/bootstrap-sass/js/bootstrap-dropdown.js')
+    script(src='vendors/bootstrap-sass/js/bootstrap-tooltip.js')
+    script(src='vendors/bootstrap-sass/js/bootstrap-modal.js')
+    script(src='vendors/bootstrap-sass/js/bootstrap-transition.js')
+    script(src='vendors/bootstrap-sass/js/bootstrap-button.js')
+    script(src='vendors/bootstrap-sass/js/bootstrap-popover.js')
+    script(src='vendors/bootstrap-sass/js/bootstrap-typeahead.js')
+    script(src='vendors/bootstrap-sass/js/bootstrap-carousel.js')
+    script(src='vendors/bootstrap-sass/js/bootstrap-scrollspy.js')
+    script(src='vendors/bootstrap-sass/js/bootstrap-collapse.js')
+    script(src='vendors/bootstrap-sass/js/bootstrap-tab.js')
+    // endbuild
+    // build:js scripts/modules.js
+    script(src='vendors/angular-resource/angular-resource.js')
+    script(src='vendors/angular-cookies/angular-cookies.js')
+    script(src='vendors/angular-sanitize/angular-sanitize.js')
+    // endbuild
+    // build:js({.tmp,app}) scripts/scripts.js
+    script(src='scripts/app.js')
+    script(src='scripts/controllers/main.js')
+    // endbuild
