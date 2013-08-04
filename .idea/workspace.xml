@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9061ed4-408d-4b8c-94ee-1fc608377eb7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="base.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,6 +25,7 @@
     <file path="/partial2.jade" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375640050083" ignored="false" />
     <file path="$PROJECT_DIR$/../_reqan/test/spec/services/userServiceSpec.js" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375640434174" ignored="false" />
     <file path="/TODOS.md" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375644421077" ignored="false" />
+    <file path="/README.md" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375644625258" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,10 +63,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TODOS.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TODOS.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TODOS.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="80" selection-start="888" selection-end="888" vertical-scroll-proportion="0.4784689">
+            <state line="20" column="32" selection-start="840" selection-end="840" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="17" selection-start="298" selection-end="298" vertical-scroll-proportion="0.14354067">
               <folding />
             </state>
           </provider>
@@ -100,7 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/404.jade" />
         <option value="$PROJECT_DIR$/app/scripts/main.js" />
         <option value="$PROJECT_DIR$/test/spec/main.js" />
         <option value="$PROJECT_DIR$/app/index.jade" />
@@ -116,6 +124,7 @@
         <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/TODOS.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -374,13 +383,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="9" selection-start="1613" selection-end="1613" vertical-scroll-proportion="0.84008527">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/views/partial1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="73" selection-start="163" selection-end="163" vertical-scroll-proportion="0.048154093">
@@ -481,7 +483,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TODOS.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="80" selection-start="888" selection-end="888" vertical-scroll-proportion="0.4784689">
+        <state line="20" column="32" selection-start="840" selection-end="840" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="17" selection-start="298" selection-end="298" vertical-scroll-proportion="0.14354067">
           <folding />
         </state>
       </provider>
