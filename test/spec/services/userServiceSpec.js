@@ -25,17 +25,17 @@ define(
 
       it('should have user', function()
       {
-        expect(userService.getUser()).toEqual('testUser2');
+        expect(userService.getUser()).toEqual('testUser1');
       });
 
       it('should not equal to user', function()
       {
-        expect(userService.getUser() + '-test').not.toEqual('testUser');
+        expect(userService.getUser() + '-test').not.toEqual('testUser2-test');
       });
 
       it('should be equal to changed user', function()
       {
-        expect(userService.getUser() + '-test').toEqual('testUser2-test');
+        expect(userService.getUser() + '-test').toEqual('testUser1-test');
       });
 
 
