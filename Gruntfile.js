@@ -305,7 +305,6 @@ module.exports = function (grunt) {
       server: [
         'coffee:dist',
         'compass:server',
-
         'jade'
       ],
       test: [
@@ -315,9 +314,7 @@ module.exports = function (grunt) {
       dist: [
         'coffee',
         'compass:dist',
-
         'jade',
-
         'imagemin',
         'svgmin',
         'htmlmin'
@@ -361,14 +358,6 @@ module.exports = function (grunt) {
     }
 
     grunt.task.run([
-//      'clean:server',
-//      'coffee:dist',
-//      'compass:server',
-//      'jade',
-//      'connect:livereload',
-//      'open',
-//      'watch'
-
       'clean:server',
       'concurrent:server',
       'connect:livereload',
@@ -397,20 +386,7 @@ module.exports = function (grunt) {
     'uglify',
     'copy',
     'usemin'
-//    'clean:dist',
-//    'useminPrepare',
-//    'concurrent:dist',
-//    'concat',
-//    'copy',
-//    'cdnify',
-//    'ngmin',
-//    'cssmin',
-//    'uglify',
-//    'rev',
-//    'usemin'
   ]);
-
-
 
   grunt.registerTask('default', [
     'jshint',

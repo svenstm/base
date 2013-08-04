@@ -9,7 +9,7 @@ define(
       ['$scope',
         function ($scope)
         {
-          console.log('controller 2 is inited', $scope);
+          console.log('controller 2 is inited');
         }]
     );
   }

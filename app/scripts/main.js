@@ -52,7 +52,7 @@ require (
               controller:   'partial2Ctrl'
             })
             .otherwise({
-              templateUrl:  '404.html'
+              redirectTo: '/partial1'
             })
         }
       ]

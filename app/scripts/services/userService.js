@@ -8,7 +8,7 @@ define(
         return {
           getUser: function ()
           {
-            return 'testUser';
+            return 'testUser2';
           }
         };
       }]

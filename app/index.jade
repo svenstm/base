@@ -31,17 +31,21 @@ html.no-js
       script(src='vendors/json3/lib/json3.min.js')
 
 
-    h1 let's see if it is related to the other task
+    h1 angular-seed-yeoman-generator-jade
 
     ul
-      li
-        a(href='/') home
       li
         a(href='/#/partial1') partial1
       li
         a(href='/#/partial2') partial2
 
-
+    // Add your site or application content here
     .container(ng-view='')
+    // Google Analytics: change UA-XXXXX-X to be your site's ID.
+    script
+      var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src='//www.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'));
 
     script(data-main='scripts/main', src='vendors/requirejs/require.js')

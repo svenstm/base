@@ -10,6 +10,7 @@ define(
         function ($scope, UserService)
         {
           $scope.name = UserService.getUser();
+
           console.log('this is controller one');
         }]
     );

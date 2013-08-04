@@ -7,7 +7,7 @@ basePath = '';
 files = [
   ANGULAR_SCENARIO,
   ANGULAR_SCENARIO_ADAPTER,
-  'test/e2e/**/*.js'
+  'test/e2e/*.js'
 ];
 
 // list of files to exclude
@@ -15,7 +15,7 @@ exclude = [];
 
 // test results reporter to use
 // possible values: dots || progress || growl
-reporters = ['progress'];
+reporters = 'progress';
 
 // web server port
 port = 8080;
@@ -31,7 +31,7 @@ colors = true;
 logLevel = LOG_INFO;
 
 // enable / disable watching file and executing tests whenever any file changes
-autoWatch = false;
+autoWatch = true;
 
 // Start these browsers, currently available:
 // - Chrome
@@ -41,7 +41,7 @@ autoWatch = false;
 // - Safari (only Mac)
 // - PhantomJS
 // - IE (only Windows)
-browsers = ['Chrome'];
+browsers = ['PhantomJS'];
 
 // If browser does not capture in given timeout [ms], kill it
 captureTimeout = 5000;
@@ -51,8 +51,8 @@ captureTimeout = 5000;
 singleRun = false;
 
 // Uncomment the following lines if you are using grunt's server to run the tests
-// proxies = {
+//proxies = {
 //   '/': 'http://localhost:9000/'
-// };
-// URL root prevent conflicts with the site root
-// urlRoot = '_karma_';
+//};
+////URL root prevent conflicts with the site root
+//urlRoot = '_karma_';

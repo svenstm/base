@@ -4,5 +4,4 @@ dist
 .tmp
 .sass-cache
 app/vendors
-.idea/
 libpeerconnection.log

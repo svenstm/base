@@ -7,12 +7,27 @@ basePath = '';
 files = [
   JASMINE,
   JASMINE_ADAPTER,
-  'app/vendors/angular/angular.js',
-  'app/vendors/angular-mocks/angular-mocks.js',
-  'app/scripts/*.js',
-  'app/scripts/**/*.js',
-  'test/mock/**/*.js',
-  'test/spec/**/*.js'
+  REQUIRE,
+  REQUIRE_ADAPTER,
+  /**
+   *  !! Put all libs in RequireJS 'paths' config here (included: false).
+   *  All these files are files that are needed for the tests to run,
+   *  but Karma is being told explicitly to avoid loading them, as they
+   *  will be loaded by RequireJS when the main module is loaded.
+   */
+
+  /**
+   *  All the sources, tests  // !! all src and test modules (included: false)
+   */
+  {pattern: 'app/vendors/**/*.js',  included: false},
+  {pattern: 'app/scripts/*.js',     included: false},
+  {pattern: 'app/scripts/**/*.js',  included: false},
+  {pattern: 'test/spec/services/*.js',    included: false},
+
+  /**
+   * !! test main require module last
+   */
+  'test/spec/main.js'
 ];
 
 // list of files to exclude
@@ -20,7 +35,7 @@ exclude = [];
 
 // test results reporter to use
 // possible values: dots || progress || growl
-reporters = ['progress'];
+reporters = 'progress';
 
 // web server port
 port = 8080;
@@ -36,7 +51,7 @@ colors = true;
 logLevel = LOG_INFO;
 
 // enable / disable watching file and executing tests whenever any file changes
-autoWatch = false;
+autoWatch = true;
 
 // Start these browsers, currently available:
 // - Chrome
@@ -46,7 +61,7 @@ autoWatch = false;
 // - Safari (only Mac)
 // - PhantomJS
 // - IE (only Windows)
-browsers = ['Chrome'];
+browsers = ['PhantomJS'];
 
 // If browser does not capture in given timeout [ms], kill it
 captureTimeout = 5000;
