@@ -18,7 +18,7 @@ module.exports = function (grunt) {
 
   // configurable paths
   var yeomanConfig = {
-    app: 'app',
+    app:  'app',
     dist: 'dist'
   };
 
@@ -28,7 +28,6 @@ module.exports = function (grunt) {
 
   grunt.initConfig({
     yeoman: yeomanConfig,
-
     jade: {
       dist: {
         options: {
@@ -43,14 +42,11 @@ module.exports = function (grunt) {
         }]
       }
     },
-
     watch: {
-
       jade: {
         files: ['<%= yeoman.app %>/{,*/}*.jade'],
         tasks: ['jade']
       },
-
       coffee: {
         files: ['<%= yeoman.app %>/scripts/{,*/}*.coffee'],
         tasks: ['coffee:dist']
@@ -68,11 +64,8 @@ module.exports = function (grunt) {
           livereload: LIVERELOAD_PORT
         },
         files: [
-
           '.tmp/{,*/}*.html',
-
-//          '<%= yeoman.app %>/{,*/}*.jade',
-
+          // '<%= yeoman.app %>/{,*/}*.jade',
           '{.tmp,<%= yeoman.app %>}/styles/{,*/}*.css',
           '{.tmp,<%= yeoman.app %>}/scripts/{,*/}*.js',
           '<%= yeoman.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
@@ -184,8 +177,7 @@ module.exports = function (grunt) {
         }
       }
     },
-    // not used since Uglify task does concat,
-    // but still available if needed
+    // Not used since Uglify task does concat, but still available if needed
     /*concat: {
       dist: {}
     },*/
@@ -201,7 +193,6 @@ module.exports = function (grunt) {
         }
       }
     },
-
     useminPrepare: {
       // html: '<%= yeoman.app %>/index.html',
       html: '.tmp/index.html',
@@ -209,7 +200,6 @@ module.exports = function (grunt) {
         dest: '<%= yeoman.dist %>'
       }
     },
-
     usemin: {
       html: ['<%= yeoman.dist %>/{,*/}*.html'],
       css: ['<%= yeoman.dist %>/styles/{,*/}*.css'],
@@ -217,7 +207,6 @@ module.exports = function (grunt) {
         dirs: ['<%= yeoman.dist %>']
       }
     },
-
     imagemin: {
       dist: {
         files: [{
@@ -251,8 +240,6 @@ module.exports = function (grunt) {
       //   }
       // }
     },
-
-
     htmlmin: {
       dist: {
         options: {
@@ -274,8 +261,6 @@ module.exports = function (grunt) {
         }]
       }
     },
-
-
     // Put files not handled in other tasks here
     copy: {
       dist: {
@@ -301,6 +286,7 @@ module.exports = function (grunt) {
         }]
       }
     },
+    // TODO (Some of concurrent tasks are not being used)
     concurrent: {
       server: [
         'coffee:dist',
@@ -352,8 +338,10 @@ module.exports = function (grunt) {
     }
   });
 
-  grunt.registerTask('server', function (target) {
-    if (target === 'dist') {
+  grunt.registerTask('server', function (target)
+  {
+    if (target === 'dist')
+    {
       return grunt.task.run(['build', 'open', 'connect:dist:keepalive']);
     }
 
@@ -382,9 +370,12 @@ module.exports = function (grunt) {
     'imagemin',
     'htmlmin',
     'concat',
+    'copy',
+    'cdnify',
+    'ngmin',
     'cssmin',
     'uglify',
-    'copy',
+    'rev',
     'usemin'
   ]);
 
