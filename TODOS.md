@@ -19,3 +19,15 @@ TODOS
 * Finalize Continuous Integration process and Dependency Checkers
 
 * Try to implement Express-Routes stuff for dynamically creating back-end simulations during the development
+
+* Probably cdfy grunt plugin not needed with requirejs stuff?
+
+* Clean or leave coffeescript stuff?
+
+* Clean or leave svgmin stuff?
+
+* Clean or leave jshint stuff since I already use IDE's jshint and jslint functionality?
+
+* Trim down grunt-concurrent stuff since not all of them are used now?
+
+* Start with a project documentation
