@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9061ed4-408d-4b8c-94ee-1fc608377eb7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/partial1.jade" afterPath="$PROJECT_DIR$/app/views/partial1.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/partial2.jade" afterPath="$PROJECT_DIR$/app/views/partial2.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="base.iws" />
@@ -16,21 +17,22 @@
     <file path="/partial2.html" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375619227231" ignored="false" />
     <file path="/index.html" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375619290726" ignored="false" />
     <file path="/a.dummy" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375620027392" ignored="false" />
-    <file path="/.bowerrc" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375619634293" ignored="false" />
+    <file path="/.bowerrc" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375725596852" ignored="false" />
     <file path="/.gitignore" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375718983578" ignored="false" />
-    <file path="/Gruntfile.js" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375722772405" ignored="false" />
-    <file path="/partial1.jade" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375640729530" ignored="false" />
-    <file path="/index.jade" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375639992792" ignored="false" />
+    <file path="/Gruntfile.js" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375729531071" ignored="false" />
+    <file path="/partial1.jade" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375730632623" ignored="false" />
+    <file path="/index.jade" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375728530347" ignored="false" />
     <file path="$PROJECT_DIR$/../_reqan/config/karma.conf.js" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375638682023" ignored="false" />
     <file path="/karma-e2e.conf.js" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375638680618" ignored="false" />
     <file path="/karma.conf.js" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375639609179" ignored="false" />
     <file path="/userServiceSpec.js" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375640427995" ignored="false" />
-    <file path="/partial2.jade" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375640050083" ignored="false" />
+    <file path="/partial2.jade" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375730665301" ignored="false" />
     <file path="$PROJECT_DIR$/../_reqan/test/spec/services/userServiceSpec.js" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375640434174" ignored="false" />
     <file path="/TODOS.md" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375645005879" ignored="false" />
     <file path="/README.md" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375644625258" ignored="false" />
     <file path="$PROJECT_DIR$/dist/vendors/angular/bower.json" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375722811112" ignored="false" />
     <file path="$PROJECT_DIR$/dist/vendors/angular/.bower.json" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375722811112" ignored="false" />
+    <file path="/bower.json" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375725547074" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,28 +52,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/main.js">
+      <file leaf-file-name="TODOS.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TODOS.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="24" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0">
+            <state line="11" column="17" selection-start="570" selection-end="570" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="12" selection-start="61" selection-end="61" vertical-scroll-proportion="0.094816685">
+            <state line="8" column="34" selection-start="218" selection-end="218" vertical-scroll-proportion="-5.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dist/scripts/app.js">
+      <file leaf-file-name="Gruntfile.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gruntfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="247" column="53" selection-start="5396" selection-end="5396" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#101#140#0" expanded="false" />
+                <element signature="e#194#260#0" expanded="false" />
+                <element signature="e#263#276#0" expanded="false" />
+                <element signature="e#630#669#0" expanded="false" />
+                <element signature="e#678#759#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="partial1.jade" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/partial1.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="22" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="partial2.jade" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/partial2.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="15" selection-start="51" selection-end="51" vertical-scroll-proportion="0.07585335">
               <folding />
             </state>
           </provider>
@@ -96,22 +122,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test/spec/main.js" />
-        <option value="$PROJECT_DIR$/app/index.jade" />
-        <option value="$PROJECT_DIR$/app/views/partial2.jade" />
-        <option value="$PROJECT_DIR$/karma.conf.js" />
-        <option value="$PROJECT_DIR$/app/views/partial1.jade" />
-        <option value="$PROJECT_DIR$/karma-e2e.conf.js" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/partial1.js" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/partial2.js" />
         <option value="$PROJECT_DIR$/test/spec/services/userServiceSpec.js" />
         <option value="$PROJECT_DIR$/app/scripts/services/userService.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/TODOS.md" />
-        <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/app/scripts/main.js" />
+        <option value="$PROJECT_DIR$/bower.json" />
+        <option value="$PROJECT_DIR$/.bowerrc" />
+        <option value="$PROJECT_DIR$/app/index2.jade" />
+        <option value="$PROJECT_DIR$/app/index.jade" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/app/views/partial1.jade" />
+        <option value="$PROJECT_DIR$/app/views/partial2.jade" />
       </list>
     </option>
   </component>
@@ -162,6 +188,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -392,31 +450,11 @@
     <MESSAGE value="chore: fixed test framework and webstormed run configs" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/karma-e2e.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="26" selection-start="1227" selection-end="1227" vertical-scroll-proportion="0.76224786" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="37" selection-start="602" selection-end="602" vertical-scroll-proportion="0.4477612">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/spec/services/userServiceSpec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="19" selection-start="464" selection-end="464" vertical-scroll-proportion="0.41307816" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/services/userService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="39" selection-start="260" selection-end="260" vertical-scroll-proportion="0.38277513" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/karma.conf.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="60" column="36" selection-start="1548" selection-end="1548" vertical-scroll-proportion="0.7001595" />
@@ -427,60 +465,30 @@
         <state line="6" column="47" selection-start="298" selection-end="298" vertical-scroll-proportion="0.14354067" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/scripts/controllers/partial1.js">
+    <entry file="file://$PROJECT_DIR$/app/vendors/bootstrap-sass/lib/bootstrap.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="35" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
+        <state line="28" column="45" selection-start="502" selection-end="502" vertical-scroll-proportion="0.5483029">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/scripts/build.txt">
+    <entry file="file://$PROJECT_DIR$/.bowerrc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="1" column="21" selection-start="23" selection-end="23" vertical-scroll-proportion="0.018963337">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+    <entry file="file://$PROJECT_DIR$/.jshintrc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="212" column="46" selection-start="4527" selection-end="4527" vertical-scroll-proportion="-1.6738306">
-          <folding>
-            <element signature="e#101#140#0" expanded="false" />
-            <element signature="e#194#260#0" expanded="false" />
-            <element signature="e#263#276#0" expanded="false" />
-            <element signature="e#630#669#0" expanded="false" />
-            <element signature="e#678#759#0" expanded="false" />
-            <element signature="e#838#1086#0" expanded="false" />
-            <element signature="e#1101#1932#0" expanded="false" />
-            <element signature="e#1949#2800#0" expanded="false" />
-            <element signature="e#2814#2905#0" expanded="false" />
-            <element signature="e#3162#3316#0" expanded="false" />
-            <element signature="e#3332#3729#0" expanded="false" />
-            <element signature="e#3746#4363#0" expanded="false" />
-            <element signature="e#5185#5394#0" expanded="false" />
-            <element signature="e#5410#5608#0" expanded="false" />
-            <element signature="e#5624#6036#0" expanded="false" />
-            <element signature="e#6053#6645#0" expanded="false" />
-            <element signature="e#7312#7603#0" expanded="false" />
-            <element signature="e#7618#7708#0" expanded="false" />
-            <element signature="e#7724#7797#0" expanded="false" />
-            <element signature="e#9003#9256#0" expanded="false" />
-            <element signature="e#9289#9369#0" expanded="false" />
-            <element signature="e#9745#9788#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TODOS.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="35" selection-start="843" selection-end="843" vertical-scroll-proportion="0.3856041">
+        <state line="20" column="35" selection-start="366" selection-end="366" vertical-scroll-proportion="0.3911343">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/scripts/services/userService.js">
+    <entry file="file://$PROJECT_DIR$/app/scripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="54" column="51" selection-start="1237" selection-end="1237" vertical-scroll-proportion="0.5259166">
           <folding />
         </state>
       </provider>
@@ -492,23 +500,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/scripts/app.js">
+    <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="24" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0">
+        <state line="20" column="28" selection-start="516" selection-end="516" vertical-scroll-proportion="0.3911343">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="12" selection-start="61" selection-end="61" vertical-scroll-proportion="0.094816685">
+        <state line="8" column="40" selection-start="85" selection-end="85" vertical-scroll-proportion="0.1517067">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="34" selection-start="214" selection-end="214" vertical-scroll-proportion="0.2085967">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TODOS.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="17" selection-start="570" selection-end="570" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="34" selection-start="218" selection-end="218" vertical-scroll-proportion="-5.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="247" column="53" selection-start="5396" selection-end="5396" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#101#140#0" expanded="false" />
+            <element signature="e#194#260#0" expanded="false" />
+            <element signature="e#263#276#0" expanded="false" />
+            <element signature="e#630#669#0" expanded="false" />
+            <element signature="e#678#759#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/partial1.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="22" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/partial2.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="15" selection-start="51" selection-end="51" vertical-scroll-proportion="0.07585335">
           <folding />
         </state>
       </provider>
