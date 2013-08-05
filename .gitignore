@@ -1,7 +1,8 @@
 .DS_Store
-node_modules
-dist
-.tmp
-.sass-cache
-app/vendors
+node_modules/
+dist/
+.tmp/
+.sass-cache/
+app/vendors/
 libpeerconnection.log
+.idea/

@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9061ed4-408d-4b8c-94ee-1fc608377eb7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TODOS.md" afterPath="$PROJECT_DIR$/TODOS.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="base.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375642132641" ignored="false" />
+    <file path="/Dummy.txt" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375718241830" ignored="false" />
     <file path="/index.js" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375618333854" ignored="false" />
     <file path="/server.js" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375618408348" ignored="false" />
     <file path="/partial1.html" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375619201896" ignored="false" />
@@ -14,8 +17,8 @@
     <file path="/index.html" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375619290726" ignored="false" />
     <file path="/a.dummy" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375620027392" ignored="false" />
     <file path="/.bowerrc" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375619634293" ignored="false" />
-    <file path="/.gitignore" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375644043755" ignored="false" />
-    <file path="/Gruntfile.js" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375623881171" ignored="false" />
+    <file path="/.gitignore" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375718983578" ignored="false" />
+    <file path="/Gruntfile.js" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375722772405" ignored="false" />
     <file path="/partial1.jade" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375640729530" ignored="false" />
     <file path="/index.jade" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375639992792" ignored="false" />
     <file path="$PROJECT_DIR$/../_reqan/config/karma.conf.js" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375638682023" ignored="false" />
@@ -26,6 +29,8 @@
     <file path="$PROJECT_DIR$/../_reqan/test/spec/services/userServiceSpec.js" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375640434174" ignored="false" />
     <file path="/TODOS.md" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375645005879" ignored="false" />
     <file path="/README.md" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375644625258" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/angular/bower.json" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375722811112" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/angular/.bower.json" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375722811112" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,10 +50,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TODOS.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TODOS.md">
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="36" selection-start="1249" selection-end="1249" vertical-scroll-proportion="0.55172414">
+            <state line="25" column="24" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="12" selection-start="61" selection-end="61" vertical-scroll-proportion="0.094816685">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/scripts/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -73,7 +96,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/scripts/main.js" />
         <option value="$PROJECT_DIR$/test/spec/main.js" />
         <option value="$PROJECT_DIR$/app/index.jade" />
         <option value="$PROJECT_DIR$/app/views/partial2.jade" />
@@ -85,18 +107,19 @@
         <option value="$PROJECT_DIR$/test/spec/services/userServiceSpec.js" />
         <option value="$PROJECT_DIR$/app/scripts/services/userService.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/Gruntfile.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/TODOS.md" />
+        <option value="$PROJECT_DIR$/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/app/scripts/main.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="54" />
-    <option name="y" value="48" />
-    <option name="width" value="1193" />
-    <option name="height" value="1018" />
+    <option name="x" value="15" />
+    <option name="y" value="30" />
+    <option name="width" value="1066" />
+    <option name="height" value="937" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -114,14 +137,14 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
-      <showMembers />
+      <showMembers ProjectPane="true" />
       <showModules />
       <showLibraryContents ProjectPane="true" />
       <hideEmptyPackages />
       <abbreviatePackageNames />
-      <autoscrollToSource />
+      <autoscrollToSource ProjectPane="true" />
       <autoscrollFromSource />
-      <sortByType />
+      <sortByType ProjectPane="true" />
     </navigator>
     <panes>
       <pane id="ProjectPane">
@@ -190,6 +213,11 @@
         <serverdata />
       </server>
     </servers>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dist/_rest" />
+    </key>
   </component>
   <component name="RunManager" selected="Node.js.Grunt Server">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
@@ -262,27 +290,47 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="48" width="1193" height="1018" extended-state="0" />
+    <frame x="15" y="30" width="1066" height="937" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953367" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22820513" sideWeight="0.72939867" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22818792" sideWeight="0.73015875" order="0" side_tool="false" content_ui="combo" x="701" y="115" width="238" height="819" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27060133" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="12" y="222" width="1170" height="865" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26984128" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="12" y="222" width="1170" height="865" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -347,53 +395,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dist/views/partial1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="73" selection-start="163" selection-end="163" vertical-scroll-proportion="0.048154093">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/partial1.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="77" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/partial2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="41" selection-start="281" selection-end="281" vertical-scroll-proportion="0.32420748">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/partial1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="9" selection-start="259" selection-end="259" vertical-scroll-proportion="0.21613833">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/e2e/simpleE2ESpec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="81" selection-start="143" selection-end="143" vertical-scroll-proportion="0.08645533">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/spec/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="68" selection-start="938" selection-end="938" vertical-scroll-proportion="0.75648415">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/karma-e2e.conf.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="26" selection-start="1227" selection-end="1227" vertical-scroll-proportion="0.76224786">
-          <folding />
-        </state>
+        <state line="53" column="26" selection-start="1227" selection-end="1227" vertical-scroll-proportion="0.76224786" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
@@ -405,56 +409,106 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/spec/services/userServiceSpec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="19" selection-start="464" selection-end="464" vertical-scroll-proportion="0.41307816">
-          <folding />
-        </state>
+        <state line="24" column="19" selection-start="464" selection-end="464" vertical-scroll-proportion="0.41307816" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/services/userService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="39" selection-start="260" selection-end="260" vertical-scroll-proportion="0.38277513">
-          <folding />
-        </state>
+        <state line="16" column="39" selection-start="260" selection-end="260" vertical-scroll-proportion="0.38277513" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/karma.conf.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="36" selection-start="1548" selection-end="1548" vertical-scroll-proportion="0.7001595">
-          <folding />
-        </state>
+        <state line="60" column="36" selection-start="1548" selection-end="1548" vertical-scroll-proportion="0.7001595" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="47" selection-start="298" selection-end="298" vertical-scroll-proportion="0.14354067">
+        <state line="6" column="47" selection-start="298" selection-end="298" vertical-scroll-proportion="0.14354067" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/scripts/controllers/partial1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="35" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/dist/scripts/build.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="21" selection-start="78" selection-end="78" vertical-scroll-proportion="0.14354067">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="324" column="14" selection-start="7891" selection-end="7891" vertical-scroll-proportion="0.47368422">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="7" selection-start="1902" selection-end="1902" vertical-scroll-proportion="0.84745765">
-          <folding />
+        <state line="212" column="46" selection-start="4527" selection-end="4527" vertical-scroll-proportion="-1.6738306">
+          <folding>
+            <element signature="e#101#140#0" expanded="false" />
+            <element signature="e#194#260#0" expanded="false" />
+            <element signature="e#263#276#0" expanded="false" />
+            <element signature="e#630#669#0" expanded="false" />
+            <element signature="e#678#759#0" expanded="false" />
+            <element signature="e#838#1086#0" expanded="false" />
+            <element signature="e#1101#1932#0" expanded="false" />
+            <element signature="e#1949#2800#0" expanded="false" />
+            <element signature="e#2814#2905#0" expanded="false" />
+            <element signature="e#3162#3316#0" expanded="false" />
+            <element signature="e#3332#3729#0" expanded="false" />
+            <element signature="e#3746#4363#0" expanded="false" />
+            <element signature="e#5185#5394#0" expanded="false" />
+            <element signature="e#5410#5608#0" expanded="false" />
+            <element signature="e#5624#6036#0" expanded="false" />
+            <element signature="e#6053#6645#0" expanded="false" />
+            <element signature="e#7312#7603#0" expanded="false" />
+            <element signature="e#7618#7708#0" expanded="false" />
+            <element signature="e#7724#7797#0" expanded="false" />
+            <element signature="e#9003#9256#0" expanded="false" />
+            <element signature="e#9289#9369#0" expanded="false" />
+            <element signature="e#9745#9788#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TODOS.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="36" selection-start="1249" selection-end="1249" vertical-scroll-proportion="0.55172414">
+        <state line="20" column="35" selection-start="843" selection-end="843" vertical-scroll-proportion="0.3856041">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/scripts/services/userService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="57" selection-start="285" selection-end="285" vertical-scroll-proportion="0.2085967">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="24" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="12" selection-start="61" selection-end="61" vertical-scroll-proportion="0.094816685">
           <folding />
         </state>
       </provider>

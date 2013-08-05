@@ -1,10 +1,15 @@
-// Generated on 2013-08-04 using generator-angular 0.3.1
 'use strict';
-var LIVERELOAD_PORT = 35729;
-var lrSnippet = require('connect-livereload')({ port: LIVERELOAD_PORT });
-var mountFolder = function (connect, dir) {
-  return connect.static(require('path').resolve(dir));
-};
+var LIVERELOAD_PORT = 35729,
+    lrSnippet = require('connect-livereload')
+    (
+      {
+        port: LIVERELOAD_PORT
+      }
+    ),
+    mountFolder = function (connect, dir)
+    {
+      return connect.static(require('path').resolve(dir));
+    };
 
 // # Globbing
 // for performance reasons we're only matching one level down:
@@ -12,7 +17,8 @@ var mountFolder = function (connect, dir) {
 // use this if you want to recursively match all subfolders:
 // 'test/spec/**/*.js'
 
-module.exports = function (grunt) {
+module.exports = function (grunt)
+{
   // load all grunt tasks
   require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
 
@@ -26,8 +32,11 @@ module.exports = function (grunt) {
     yeomanConfig.app = require('./bower.json').appPath || yeomanConfig.app;
   } catch (e) {}
 
-  grunt.initConfig({
+  grunt.initConfig(
+    {
     yeoman: yeomanConfig,
+
+
     jade: {
       dist: {
         options: {
@@ -42,6 +51,8 @@ module.exports = function (grunt) {
         }]
       }
     },
+
+
     watch: {
       jade: {
         files: ['<%= yeoman.app %>/{,*/}*.jade'],
@@ -72,6 +83,8 @@ module.exports = function (grunt) {
         ]
       }
     },
+
+
     connect: {
       options: {
         port: 9000,
@@ -109,11 +122,15 @@ module.exports = function (grunt) {
         }
       }
     },
+
+
     open: {
       server: {
         url: 'http://localhost:<%= connect.options.port %>'
       }
     },
+
+
     clean: {
       dist: {
         files: [{
@@ -127,6 +144,8 @@ module.exports = function (grunt) {
       },
       server: '.tmp'
     },
+
+
     jshint: {
       options: {
         jshintrc: '.jshintrc'
@@ -136,6 +155,8 @@ module.exports = function (grunt) {
         '<%= yeoman.app %>/scripts/{,*/}*.js'
       ]
     },
+
+
     coffee: {
       dist: {
         files: [{
@@ -156,6 +177,8 @@ module.exports = function (grunt) {
         }]
       }
     },
+
+
     compass: {
       options: {
         sassDir: '<%= yeoman.app %>/styles',
@@ -177,15 +200,20 @@ module.exports = function (grunt) {
         }
       }
     },
+
+
     // Not used since Uglify task does concat, but still available if needed
     /*concat: {
       dist: {}
     },*/
+
+
     rev: {
       dist: {
         files: {
           src: [
-            '<%= yeoman.dist %>/scripts/{,*/}*.js',
+//            '<%= yeoman.dist %>/scripts/{,*/}*.js',
+            '<%= yeoman.dist %>/scripts/main.js',
             '<%= yeoman.dist %>/styles/{,*/}*.css',
             '<%= yeoman.dist %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}',
             '<%= yeoman.dist %>/styles/fonts/*'
@@ -193,13 +221,16 @@ module.exports = function (grunt) {
         }
       }
     },
+
+
     useminPrepare: {
-      // html: '<%= yeoman.app %>/index.html',
       html: '.tmp/index.html',
       options: {
         dest: '<%= yeoman.dist %>'
       }
     },
+
+
     usemin: {
       html: ['<%= yeoman.dist %>/{,*/}*.html'],
       css: ['<%= yeoman.dist %>/styles/{,*/}*.css'],
@@ -207,6 +238,8 @@ module.exports = function (grunt) {
         dirs: ['<%= yeoman.dist %>']
       }
     },
+
+
     imagemin: {
       dist: {
         files: [{
@@ -217,6 +250,8 @@ module.exports = function (grunt) {
         }]
       }
     },
+
+
     svgmin: {
       dist: {
         files: [{
@@ -227,6 +262,8 @@ module.exports = function (grunt) {
         }]
       }
     },
+
+
     cssmin: {
       // By default, your `index.html` <!-- Usemin Block --> will take care of
       // minification. This option is pre-configured if you do not wish to use
@@ -240,6 +277,8 @@ module.exports = function (grunt) {
       //   }
       // }
     },
+
+
     htmlmin: {
       dist: {
         options: {
@@ -261,6 +300,8 @@ module.exports = function (grunt) {
         }]
       }
     },
+
+
     // Put files not handled in other tasks here
     copy: {
       dist: {
@@ -286,6 +327,8 @@ module.exports = function (grunt) {
         }]
       }
     },
+
+
     // TODO (Some of concurrent tasks are not being used)
     concurrent: {
       server: [
@@ -306,27 +349,35 @@ module.exports = function (grunt) {
         'htmlmin'
       ]
     },
+
+
     karma: {
       unit: {
         configFile: 'karma.conf.js',
         singleRun: true
       }
     },
+
+
     cdnify: {
       dist: {
         html: ['<%= yeoman.dist %>/*.html']
       }
     },
+
+
     ngmin: {
       dist: {
         files: [{
           expand: true,
           cwd: '<%= yeoman.dist %>/scripts',
-          src: '*.js',
+          src: '**/*.js',
           dest: '<%= yeoman.dist %>/scripts'
         }]
       }
     },
+
+
     uglify: {
       dist: {
         files: {
@@ -335,7 +386,41 @@ module.exports = function (grunt) {
           ]
         }
       }
+    },
+
+
+    requirejs: {
+
+//      compile: {
+//        options: {
+//          baseUrl: "path/to/base",
+//          mainConfigFile: "path/to/config.js",
+//          out: "path/to/optimized.js"
+//        }
+//      }
+
+      compile: {
+
+        // !! You can drop your app.build.js config wholesale into 'options'
+        options: {
+          appDir: "app/scripts/",
+          baseUrl: ".",
+          dir: "dist/scripts/",
+          optimize: 'uglify',
+          mainConfigFile:'./app/scripts/main.js',
+//          modules:[
+//            {
+//              name:'MyApp'
+//            }
+//          ],
+          logLevel: 0,
+          findNestedDependencies: true,
+          fileExclusionRegExp: /^\./,
+          inlineText: true
+        }
+      }
     }
+
   });
 
   grunt.registerTask('server', function (target)
@@ -363,7 +448,7 @@ module.exports = function (grunt) {
 
   grunt.registerTask('build', [
     'clean:dist',
-    'coffee',
+//    'coffee',
     'compass:dist',
     'jade',
     'useminPrepare',
@@ -371,12 +456,17 @@ module.exports = function (grunt) {
     'htmlmin',
     'concat',
     'copy',
-    'cdnify',
+//    'cdnify',
     'ngmin',
     'cssmin',
-    'uglify',
+//    'uglify',
+    'requirejs',
     'rev',
     'usemin'
+  ]);
+
+  grunt.registerTask('require', [
+    'requirejs'
   ]);
 
   grunt.registerTask('default', [
