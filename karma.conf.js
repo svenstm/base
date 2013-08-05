@@ -19,9 +19,9 @@ files = [
   /**
    *  All the sources, tests  // !! all src and test modules (included: false)
    */
-  {pattern: 'app/vendors/**/*.js',  included: false},
-  {pattern: 'app/scripts/*.js',     included: false},
-  {pattern: 'app/scripts/**/*.js',  included: false},
+//  {pattern: 'app/vendors/**/*.js',  included: false},
+  {pattern: 'app/scripts/*.js',           included: false},
+  {pattern: 'app/scripts/**/*.js',        included: false},
   {pattern: 'test/spec/services/*.js',    included: false},
 
   /**

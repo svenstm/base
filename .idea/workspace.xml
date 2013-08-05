@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9061ed4-408d-4b8c-94ee-1fc608377eb7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.jshintrc" afterPath="$PROJECT_DIR$/.jshintrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TODOS.md" afterPath="$PROJECT_DIR$/TODOS.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/directives/directives.js" afterPath="$PROJECT_DIR$/app/scripts/directives/directives.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/main.js" afterPath="$PROJECT_DIR$/app/scripts/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/directives/ngbkFocus.js" afterPath="$PROJECT_DIR$/app/scripts/directives/ngbkFocus.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/partial1.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/partial1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/partial2.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/partial2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/services/userService.js" afterPath="$PROJECT_DIR$/app/scripts/services/userService.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/karma.conf.js" afterPath="$PROJECT_DIR$/karma.conf.js" />
     </list>
     <ignored path="base.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,7 +25,7 @@
     <file path="/userServiceSpec.js" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375640427995" ignored="false" />
     <file path="/partial2.jade" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375730665301" ignored="false" />
     <file path="$PROJECT_DIR$/../_reqan/test/spec/services/userServiceSpec.js" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375640434174" ignored="false" />
-    <file path="/TODOS.md" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375645005879" ignored="false" />
+    <file path="/TODOS.md" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375732489488" ignored="false" />
     <file path="/README.md" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375644625258" ignored="false" />
     <file path="$PROJECT_DIR$/dist/vendors/angular/bower.json" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375722811112" ignored="false" />
     <file path="$PROJECT_DIR$/dist/vendors/angular/.bower.json" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375722811112" ignored="false" />
@@ -149,10 +141,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Gruntfile.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <file leaf-file-name="TODOS.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TODOS.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="370" column="5" selection-start="7634" selection-end="7634" vertical-scroll-proportion="0.86725664">
+            <state line="13" column="38" selection-start="523" selection-end="523" vertical-scroll-proportion="0.2195946">
               <folding />
             </state>
           </provider>
@@ -177,14 +169,12 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/.bowerrc" />
         <option value="$PROJECT_DIR$/app/index2.jade" />
         <option value="$PROJECT_DIR$/app/index.jade" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/views/partial1.jade" />
         <option value="$PROJECT_DIR$/app/views/partial2.jade" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/TODOS.md" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/partial1.js" />
         <option value="$PROJECT_DIR$/app/scripts/directives/directives.js" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/partial2.js" />
@@ -193,6 +183,8 @@
         <option value="$PROJECT_DIR$/app/scripts/directives/ngbkFocus.js" />
         <option value="$PROJECT_DIR$/.jshintrc" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/karma.conf.js" />
+        <option value="$PROJECT_DIR$/TODOS.md" />
       </list>
     </option>
   </component>
@@ -200,7 +192,7 @@
     <option name="x" value="15" />
     <option name="y" value="30" />
     <option name="width" value="1135" />
-    <option name="height" value="937" />
+    <option name="height" value="1034" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -300,7 +292,7 @@
       <recent name="$PROJECT_DIR$/dist/_rest" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.Grunt Server">
+  <component name="RunManager" selected="Node.js.Karma Server">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -392,18 +384,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="15" y="30" width="1135" height="937" extended-state="0" />
+    <frame x="15" y="30" width="1135" height="1034" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21402878" sideWeight="0.6703297" order="0" side_tool="false" content_ui="combo" x="701" y="115" width="238" height="819" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21402878" sideWeight="0.75873363" order="0" side_tool="false" content_ui="combo" x="701" y="115" width="238" height="819" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26984128" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="12" y="222" width="1170" height="865" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24126637" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="12" y="222" width="1170" height="865" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -478,20 +470,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="28" selection-start="516" selection-end="516" vertical-scroll-proportion="0.3911343">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="40" selection-start="85" selection-end="85" vertical-scroll-proportion="0.1517067">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/index.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="34" selection-start="214" selection-end="214" vertical-scroll-proportion="0.2085967">
@@ -562,13 +540,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TODOS.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="53" selection-start="513" selection-end="513" vertical-scroll-proportion="0.2465234">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="96" selection-start="372" selection-end="372" vertical-scroll-proportion="0.3034134">
@@ -583,9 +554,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/karma.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="29" selection-start="1025" selection-end="1025" vertical-scroll-proportion="0.6081081">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="370" column="5" selection-start="7634" selection-end="7634" vertical-scroll-proportion="0.86725664">
+        <state line="345" column="88" selection-start="7282" selection-end="7282" vertical-scroll-proportion="0.45945945">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/karma-e2e.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TODOS.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="38" selection-start="523" selection-end="523" vertical-scroll-proportion="0.2195946">
           <folding />
         </state>
       </provider>
