@@ -16,15 +16,15 @@
     "grunt-contrib-imagemin": "~0.1.4",
     "grunt-contrib-watch": "~0.4.0",
     "grunt-contrib-jade": "~0.8.0",
+    "grunt-contrib-requirejs": "~0.4.1",
     "grunt-usemin": "~0.1.11",
     "grunt-rev": "~0.1.0",
     "grunt-karma": "~0.4.3",
     "grunt-open": "~0.2.0",
     "grunt-concurrent": "~0.3.0",
-    "matchdep": "~0.1.2",
-    "connect-livereload": "~0.2.0",
     "grunt-ngmin": "~0.0.2",
-    "grunt-contrib-requirejs": "~0.4.1"
+    "matchdep": "~0.1.2",
+    "connect-livereload": "~0.2.0"
   },
   "engines": {
     "node": ">=0.8.0"

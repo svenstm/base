@@ -4,9 +4,6 @@
     <list default="true" id="f9061ed4-408d-4b8c-94ee-1fc608377eb7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/partial1.jade" afterPath="$PROJECT_DIR$/app/views/partial1.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/partial2.jade" afterPath="$PROJECT_DIR$/app/views/partial2.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="base.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -16,7 +13,7 @@
     <file path="/partial1.html" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375619201896" ignored="false" />
     <file path="/partial2.html" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375619227231" ignored="false" />
     <file path="/index.html" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375619290726" ignored="false" />
-    <file path="/a.dummy" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375620027392" ignored="false" />
+    <file path="/a.dummy" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375730990480" ignored="false" />
     <file path="/.bowerrc" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375725596852" ignored="false" />
     <file path="/.gitignore" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375718983578" ignored="false" />
     <file path="/Gruntfile.js" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375729531071" ignored="false" />
@@ -64,40 +61,16 @@
       <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="34" selection-start="218" selection-end="218" vertical-scroll-proportion="-5.0">
+            <state line="4" column="52" selection-start="86" selection-end="86" vertical-scroll-proportion="-2.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gruntfile.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Gruntfile.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gruntfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="247" column="53" selection-start="5396" selection-end="5396" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#101#140#0" expanded="false" />
-                <element signature="e#194#260#0" expanded="false" />
-                <element signature="e#263#276#0" expanded="false" />
-                <element signature="e#630#669#0" expanded="false" />
-                <element signature="e#678#759#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="partial1.jade" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/partial1.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="22" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="partial2.jade" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/partial2.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="15" selection-start="51" selection-end="51" vertical-scroll-proportion="0.07585335">
+            <state line="36" column="54" selection-start="835" selection-end="835" vertical-scroll-proportion="0.13274336">
               <folding />
             </state>
           </provider>
@@ -134,10 +107,10 @@
         <option value="$PROJECT_DIR$/app/index2.jade" />
         <option value="$PROJECT_DIR$/app/index.jade" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/app/views/partial1.jade" />
         <option value="$PROJECT_DIR$/app/views/partial2.jade" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/Gruntfile.js" />
       </list>
     </option>
   </component>
@@ -188,38 +161,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -374,8 +315,9 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22818792" sideWeight="0.73015875" order="0" side_tool="false" content_ui="combo" x="701" y="115" width="238" height="819" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22818792" sideWeight="0.6703297" order="0" side_tool="false" content_ui="combo" x="701" y="115" width="238" height="819" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -384,7 +326,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -528,36 +469,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/partial2.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="30" selection-start="82" selection-end="82" vertical-scroll-proportion="0.094816685">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/partial1.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="22" selection-start="73" selection-end="73" vertical-scroll-proportion="0.094816685">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="34" selection-start="218" selection-end="218" vertical-scroll-proportion="-5.0">
+        <state line="4" column="52" selection-start="86" selection-end="86" vertical-scroll-proportion="-2.5">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="247" column="53" selection-start="5396" selection-end="5396" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#101#140#0" expanded="false" />
-            <element signature="e#194#260#0" expanded="false" />
-            <element signature="e#263#276#0" expanded="false" />
-            <element signature="e#630#669#0" expanded="false" />
-            <element signature="e#678#759#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/partial1.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="22" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/partial2.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="15" selection-start="51" selection-end="51" vertical-scroll-proportion="0.07585335">
+        <state line="36" column="54" selection-start="835" selection-end="835" vertical-scroll-proportion="0.13274336">
           <folding />
         </state>
       </provider>
