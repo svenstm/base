@@ -1,9 +1,7 @@
 'use strict';
+
 var LIVERELOAD_PORT = 35729,
-    lrSnippet       = require('connect-livereload')(
-                      {
-                        port: LIVERELOAD_PORT
-                      }),
+    lrSnippet       = require('connect-livereload')({ port: LIVERELOAD_PORT }),
     mountFolder     = function (connect, dir)
                       {
                         return connect.static(require('path').resolve(dir));
@@ -312,9 +310,9 @@ module.exports = function (grunt)
     requirejs: {
       compile: {
         options: {
-          appDir: "app/scripts/",
-          baseUrl: ".",
-          dir: "dist/scripts/",
+          appDir: 'app/scripts/',
+          baseUrl: '.',
+          dir: 'dist/scripts/',
           optimize: 'uglify',
           mainConfigFile:'./app/scripts/main.js',
           logLevel: 0,

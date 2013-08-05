@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9061ed4-408d-4b8c-94ee-1fc608377eb7" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.jshintrc" afterPath="$PROJECT_DIR$/.jshintrc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TODOS.md" afterPath="$PROJECT_DIR$/TODOS.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/directives/directives.js" afterPath="$PROJECT_DIR$/app/scripts/directives/directives.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/main.js" afterPath="$PROJECT_DIR$/app/scripts/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/directives/ngbkFocus.js" afterPath="$PROJECT_DIR$/app/scripts/directives/ngbkFocus.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/partial1.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/partial1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/partial2.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/partial2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/services/userService.js" afterPath="$PROJECT_DIR$/app/scripts/services/userService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="base.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,6 +38,98 @@
     <file path="$PROJECT_DIR$/dist/vendors/angular/bower.json" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375722811112" ignored="false" />
     <file path="$PROJECT_DIR$/dist/vendors/angular/.bower.json" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375722811112" ignored="false" />
     <file path="/bower.json" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375725547074" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap-sass/lib/_dropdowns.scss" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207686" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap-sass/lib/_tooltip.scss" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207686" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap/less/dropdowns.less" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207686" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap/less/code.less" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207686" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap-sass/lib/_button-groups.scss" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207686" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap/less/forms.less" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207686" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap/docs/assets/css/bootstrap-responsive.css" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207686" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap/less/pager.less" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207686" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap-sass/lib/_scaffolding.scss" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207686" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap-sass/lib/_navbar.scss" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207686" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap-sass/lib/_wells.scss" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207686" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap-sass/lib/_progress-bars.scss" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207686" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap/less/accordion.less" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207686" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap-sass/lib/_forms.scss" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207686" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap/less/buttons.less" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207686" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap/less/carousel.less" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207686" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap-sass/lib/_jumbotron.scss" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207686" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap/less/type.less" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207686" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap-sass/lib/_breadcrumbs.scss" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207686" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap/less/navs.less" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207686" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap/less/pagination.less" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207686" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap/less/progress-bars.less" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207686" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap-sass/lib/_input-groups.scss" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207686" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap/less/tables.less" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207686" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap/less/modals.less" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207686" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/es5-shim/tests/lib/jasmine.css" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207686" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap/less/mixins.less" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207686" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap-sass/lib/_labels.scss" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207686" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap/less/component-animations.less" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207686" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap-datepicker/build/build_standalone.less" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207686" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/json3/page/style.css" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207686" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap-sass/lib/_accordion.scss" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207686" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap-select/bootstrap-select.css" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207687" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap-select/bootstrap-select.min.css" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207687" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap-sass/lib/_popovers.scss" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207687" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap-sass/customize.html" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207687" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap-sass/lib/_tables.scss" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207687" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap-sass/lib/_pagination.scss" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207687" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap-sass/js/tests/vendor/qunit.css" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207687" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap-sass/assets/css/pygments-manni.css" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207687" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap-sass/lib/_media.scss" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207687" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap/docs/assets/css/bootstrap.css" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207687" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap-sass/lib/_badges.scss" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207687" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap-sass/lib/_panels.scss" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207687" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap/less/hero-unit.less" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207687" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap-timepicker/less/timepicker.less" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207687" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap/less/utilities.less" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207687" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/styles/1991b40b.main.css" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207687" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap/less/button-groups.less" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207687" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap/less/close.less" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207687" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap/less/thumbnails.less" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207687" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap/less/labels-badges.less" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207687" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap/less/navbar.less" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207687" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap/less/popovers.less" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207687" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap/less/responsive-utilities.less" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207687" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap/less/breadcrumbs.less" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207687" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap/less/layouts.less" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207687" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap-sass/lib/_buttons.scss" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207687" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap-sass/lib/_thumbnails.scss" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207687" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap/less/scaffolding.less" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207687" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap-sass/lib/_alerts.scss" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207687" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap/less/sprites.less" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207687" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap/less/wells.less" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207687" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap-sass/lib/_code.scss" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207687" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap-timepicker/css/bootstrap-timepicker.min.css" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207687" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/json3/benchmark/assets/jsperf.css" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207687" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap/less/media.less" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207687" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap-sass/dist/css/bootstrap.css" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207687" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap-datepicker/build/build.less" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207687" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap/docs/build/node_modules/hogan.js/web/stylesheets/layout.css" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207687" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap-sass/lib/_modals.scss" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207687" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap-timepicker/css/bootstrap-timepicker.css" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207687" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap/docs/build/node_modules/hogan.js/web/stylesheets/skeleton.css" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207688" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap-sass/lib/_navs.scss" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207688" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap/less/alerts.less" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207688" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap-datepicker/tests/assets/qunit.css" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207688" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap/less/tests/css-tests.css" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207688" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap-datepicker/css/datepicker.css" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207688" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap-sass/lib/_carousel.scss" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207688" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap-sass/lib/_component-animations.scss" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207688" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap/docs/assets/js/google-code-prettify/prettify.css" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207688" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap-sass/lib/_grid.scss" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207688" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap-sass/dist/css/bootstrap.min.css" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207688" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap/docs/assets/css/docs.css" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207688" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap-sass/lib/_type.scss" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207688" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap-datepicker/less/datepicker.less" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207688" ignored="false" />
+    <file path="$PROJECT_DIR$/.tmp/styles/main.css" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207688" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap-sass/lib/_responsive-utilities.scss" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207688" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/vendors/bootstrap-sass/assets/css/docs.css" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731207688" ignored="false" />
+    <file path="/.jshintrc" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375732155071" ignored="false" />
+    <file path="/ngbkFocus.js" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375732124724" ignored="false" />
+    <file path="/partial2.js" changelist="f9061ed4-408d-4b8c-94ee-1fc608377eb7" time="1375731895271" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,28 +149,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TODOS.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TODOS.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="17" selection-start="570" selection-end="570" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="52" selection-start="86" selection-end="86" vertical-scroll-proportion="-2.5">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Gruntfile.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gruntfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="54" selection-start="835" selection-end="835" vertical-scroll-proportion="0.13274336">
+            <state line="370" column="5" selection-start="7634" selection-end="7634" vertical-scroll-proportion="0.86725664">
               <folding />
             </state>
           </provider>
@@ -95,14 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/scripts/controllers/partial1.js" />
-        <option value="$PROJECT_DIR$/app/scripts/controllers/partial2.js" />
-        <option value="$PROJECT_DIR$/test/spec/services/userServiceSpec.js" />
-        <option value="$PROJECT_DIR$/app/scripts/services/userService.js" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/TODOS.md" />
-        <option value="$PROJECT_DIR$/app/scripts/main.js" />
-        <option value="$PROJECT_DIR$/bower.json" />
         <option value="$PROJECT_DIR$/.bowerrc" />
         <option value="$PROJECT_DIR$/app/index2.jade" />
         <option value="$PROJECT_DIR$/app/index.jade" />
@@ -110,6 +184,14 @@
         <option value="$PROJECT_DIR$/app/views/partial1.jade" />
         <option value="$PROJECT_DIR$/app/views/partial2.jade" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/TODOS.md" />
+        <option value="$PROJECT_DIR$/app/scripts/controllers/partial1.js" />
+        <option value="$PROJECT_DIR$/app/scripts/directives/directives.js" />
+        <option value="$PROJECT_DIR$/app/scripts/controllers/partial2.js" />
+        <option value="$PROJECT_DIR$/app/scripts/main.js" />
+        <option value="$PROJECT_DIR$/app/scripts/services/userService.js" />
+        <option value="$PROJECT_DIR$/app/scripts/directives/ngbkFocus.js" />
+        <option value="$PROJECT_DIR$/.jshintrc" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
       </list>
     </option>
@@ -117,7 +199,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="15" />
     <option name="y" value="30" />
-    <option name="width" value="1066" />
+    <option name="width" value="1135" />
     <option name="height" value="937" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -173,7 +255,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="web.server" />
+    <property name="options.lastSelected" value="Settings.JavaScript.Linters.JSLint" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../_reqan" />
     <property name="FullScreen" value="false" />
@@ -310,14 +392,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="15" y="30" width="1066" height="937" extended-state="0" />
+    <frame x="15" y="30" width="1135" height="937" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22818792" sideWeight="0.6703297" order="0" side_tool="false" content_ui="combo" x="701" y="115" width="238" height="819" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21402878" sideWeight="0.6703297" order="0" side_tool="false" content_ui="combo" x="701" y="115" width="238" height="819" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -396,51 +478,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/karma.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="36" selection-start="1548" selection-end="1548" vertical-scroll-proportion="0.7001595" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="47" selection-start="298" selection-end="298" vertical-scroll-proportion="0.14354067" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/vendors/bootstrap-sass/lib/bootstrap.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="45" selection-start="502" selection-end="502" vertical-scroll-proportion="0.5483029">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.bowerrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="21" selection-start="23" selection-end="23" vertical-scroll-proportion="0.018963337">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.jshintrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="35" selection-start="366" selection-end="366" vertical-scroll-proportion="0.3911343">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="51" selection-start="1237" selection-end="1237" vertical-scroll-proportion="0.5259166">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="57" selection-start="285" selection-end="285" vertical-scroll-proportion="0.2085967">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="28" selection-start="516" selection-end="516" vertical-scroll-proportion="0.3911343">
@@ -458,13 +495,6 @@
     <entry file="file://$PROJECT_DIR$/app/index.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="34" selection-start="214" selection-end="214" vertical-scroll-proportion="0.2085967">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TODOS.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="17" selection-start="570" selection-end="570" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -490,9 +520,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.jshintrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="48" selection-start="351" selection-end="351" vertical-scroll-proportion="0.3830645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="65" selection-start="47" selection-end="47" vertical-scroll-proportion="0.05859375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/directives/ngbkFocus.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="94" selection-start="527" selection-end="527" vertical-scroll-proportion="0.546875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/directives/directives.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="4" selection-start="66" selection-end="66" vertical-scroll-proportion="0.094816685">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/partial2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="90" selection-start="308" selection-end="308" vertical-scroll-proportion="0.32237673">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/partial1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="110" selection-end="110" vertical-scroll-proportion="0.094816685">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TODOS.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="53" selection-start="513" selection-end="513" vertical-scroll-proportion="0.2465234">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="96" selection-start="372" selection-end="372" vertical-scroll-proportion="0.3034134">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/services/userService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="96" selection-start="279" selection-end="279" vertical-scroll-proportion="0.34134007">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="54" selection-start="835" selection-end="835" vertical-scroll-proportion="0.13274336">
+        <state line="370" column="5" selection-start="7634" selection-end="7634" vertical-scroll-proportion="0.86725664">
           <folding />
         </state>
       </provider>

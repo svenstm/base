@@ -2,6 +2,8 @@ define(
   ['services/services'],
   function (services)
   {
+    'use strict';
+
     services.factory('UserService', [
       function ()
       {
@@ -11,7 +13,7 @@ define(
             return 'testUser2';
           }
         };
-      }]
-    );
+      }
+    ]);
   }
 );

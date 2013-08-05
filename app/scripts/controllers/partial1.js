@@ -2,6 +2,8 @@ define(
   ['controllers/controllers', 'services/userService'],
   function (controllers)
   {
+    'use strict';
+
     /**
      * Partial1 controller
      */

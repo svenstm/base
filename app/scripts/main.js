@@ -53,7 +53,7 @@ require (
             })
             .otherwise({
               redirectTo: '/partial1'
-            })
+            });
         }
       ]
     );

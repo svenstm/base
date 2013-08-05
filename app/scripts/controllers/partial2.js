@@ -2,6 +2,8 @@ define(
   ['controllers/controllers'],
   function (controllers)
   {
+    'use strict';
+
     /**
      * Partial2 controller
      */
@@ -9,7 +11,7 @@ define(
       ['$scope',
         function ($scope)
         {
-          console.log('controller 2 is inited');
+          console.log('controller 2 is inited', $scope);
         }]
     );
   }
