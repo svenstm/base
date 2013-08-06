@@ -6,7 +6,7 @@ describe('Simple E2e Test', function ()
 
     sleep(1);
 
-    expect(element('#test').html()).toEqual('Hi testUser2');
+    expect(element('#test').html()).toEqual('Hi testUser1');
 
   });
 });
