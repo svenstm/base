@@ -18,10 +18,10 @@ module.exports = function (karma)
     runnerPort: 9100,
     colors: true,
     logLevel: karma.LOG_INFO,
-    autoWatch: true,
-    browsers: ['PhantomJS'],
+    autoWatch: false,
+    browsers: ['ChromeCanary', 'PhantomJS'],
     captureTimeout: 5000,
-    singleRun: false,
+    singleRun: true,
     proxies: {
       '/': 'http://localhost:9000/'
     },

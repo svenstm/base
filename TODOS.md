@@ -1,8 +1,6 @@
 TODOS
 ----------------------------------------------------------------------------------------------------------
 
-* Finalize Continuous Integration process and Dependency Checkers !
-
 * Try to implement Express-Routes stuff for dynamically creating back-end simulations during the development !
 
 * Start with a project documentation !
