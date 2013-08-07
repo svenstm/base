@@ -19,7 +19,7 @@ module.exports = function (karma)
     colors: true,
     logLevel: karma.LOG_INFO,
     autoWatch: true,
-    browsers: ['Chrome'],
+    browsers: ['PhantomJS'],
     captureTimeout: 5000,
     singleRun: false,
     proxies: {
@@ -30,6 +30,7 @@ module.exports = function (karma)
       'karma-ng-scenario',
       'karma-chrome-launcher',
       'karma-firefox-launcher',
+      'karma-safari-launcher',
       'karma-phantomjs-launcher'
     ]
   });
