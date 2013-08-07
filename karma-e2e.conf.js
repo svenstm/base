@@ -30,7 +30,6 @@ module.exports = function (karma)
       'karma-ng-scenario',
       'karma-chrome-launcher',
       'karma-firefox-launcher',
-      'karma-safari-launcher',
       'karma-phantomjs-launcher'
     ]
   });
