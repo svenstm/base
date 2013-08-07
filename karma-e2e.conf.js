@@ -3,43 +3,30 @@ module.exports = function (karma)
   'use strict';
 
   karma.set({
-    frameworks: ['jasmine', 'ng-scenario'],
-
+    frameworks: ['ng-scenario'],
     files: [
-      'app/vendors/angular-scenario/angular-scenario.js',
+      {pattern: 'app/vendors/**/*.js',        included: false},
+      {pattern: 'app/scripts/*.js',           included: false},
+      {pattern: 'app/scripts/**/*.js',        included: false},
+      {pattern: 'test/spec/services/*.js',    included: false},
       'test/e2e/*.js'
     ],
-
     basePath: '',
-
     exclude: [],
-
     reporters: ['progress'],
-
     port: 8080,
-
     runnerPort: 9100,
-
     colors: true,
-
     logLevel: karma.LOG_INFO,
-
     autoWatch: true,
-
-    browsers: ['PhantomJS'],
-
+    browsers: ['ChromeCanary', 'PhantomJS'],
     captureTimeout: 5000,
-
     singleRun: false,
-
     proxies: {
       '/': 'http://localhost:9000/'
     },
-
     urlRoot: '/_karma_/',
-
     plugins: [
-      'karma-jasmine',
       'karma-ng-scenario',
       'karma-chrome-launcher',
       'karma-firefox-launcher',

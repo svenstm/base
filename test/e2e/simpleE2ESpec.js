@@ -6,6 +6,10 @@ describe('Simple E2e Test', function ()
 
     sleep(1);
 
+
+    console.log('-->', element('#test').html());
+
+
     expect(element('#test').html()).toEqual('Hi testUser1');
 
   });
