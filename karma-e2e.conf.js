@@ -5,10 +5,10 @@ module.exports = function (karma)
   karma.set({
     frameworks: ['ng-scenario'],
     files: [
-      {pattern: 'app/vendors/**/*.js',        included: false},
-      {pattern: 'app/scripts/*.js',           included: false},
-      {pattern: 'app/scripts/**/*.js',        included: false},
-      {pattern: 'test/spec/services/*.js',    included: false},
+      {pattern: 'app/vendors/**/*.js',    included: false},
+      {pattern: 'app/scripts/*.js',       included: false},
+      {pattern: 'app/scripts/**/*.js',    included: false},
+      {pattern: 'test/spec/services/*.js',included: false},
       'test/e2e/*.js'
     ],
     basePath: '',
@@ -19,7 +19,7 @@ module.exports = function (karma)
     colors: true,
     logLevel: karma.LOG_INFO,
     autoWatch: true,
-    browsers: ['ChromeCanary', 'PhantomJS'],
+    browsers: ['ChromeCanary'],
     captureTimeout: 5000,
     singleRun: false,
     proxies: {

@@ -10,7 +10,7 @@ define(
         return {
           getUser: function ()
           {
-            return 'testUser1';
+            return 'testUser2';
           }
         };
       }

@@ -18,11 +18,6 @@ define(
         userService = UserService;
       }));
 
-
-
-
-
-
       it('should have user', function()
       {
         expect(userService.getUser()).toEqual('testUser1');
@@ -37,11 +32,6 @@ define(
       {
         expect(userService.getUser() + '-test').toEqual('testUser1-test');
       });
-
-
-
-
-
 
     });
   }
