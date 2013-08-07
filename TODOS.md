@@ -8,3 +8,5 @@ TODOS
 * Implement grunt-changelog plugin for dynamically produced changelog's !
 
 * Implement grunt-release plugin and streamline the release process !
+
+* Add lazy loading for scripts
