@@ -45,9 +45,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/Cengizism/base.git"
+    "url": "Cengizism/base"
   },
   "scripts": {
     "test": "grunt test"
-  }
+  },
+  "licenses": [
+    {
+      "type": "BSD"
+    }
+  ]
 }
