@@ -443,17 +443,17 @@ module.exports = function (grunt)
   ]);
 
   grunt.registerTask('minor', [
-    'bump:patch',
+    'bump:minor',
     'changelog',
     'stage',
-    'release:patch'
+    'release:minor'
   ]);
 
   grunt.registerTask('major', [
-    'bump:patch',
+    'bump:major',
     'changelog',
     'stage',
-    'release:patch'
+    'release:major'
   ]);
 
   grunt.registerTask('default', [
