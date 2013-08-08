@@ -329,21 +329,37 @@ module.exports = function (grunt)
       }
     },
 
-    pkg: grunt.file.readJSON('package.json'),
+
     changelog: {
       options: {
         dest: 'CHANGELOG.md',
         versionFile: 'package.json'
       }
     },
+
+
     release: {
       options: {
         commitMessage: '<%= version %>',
         tagName: 'v<%= version %>',
+        tagMessage: 'tagging version <%= version %>', //default: 'Version <%= version %>'
         bump: false, // we have our own bump
-        file: 'package.json'
+        file: 'package.json',
+
+        add: true, //default: true
+        commit: true, //default: true
+        tag: true, //default: true
+        push: true, //default: true
+        pushTags: true, //default: true
+        npm: false, //default: true
+//        npmtag: true, //default: no tag
+//        folder: 'folder/to/publish/to/npm' //default project root
+
+
       }
     },
+
+
     stage: {
       options: {
         files: ['CHANGELOG.md']
@@ -367,6 +383,42 @@ module.exports = function (grunt)
       'watch'
     ]);
   });
+
+  grunt.registerTask('bump',
+    'bump manifest version',
+    function (type)
+    {
+      var options = this.options({
+        file: grunt.config('pkgFile') || 'package.json'
+      });
+
+      function setup(file, type) {
+        var pkg = grunt.file.readJSON(file);
+        var newVersion = pkg.version = semver.inc(pkg.version, type || 'patch');
+        return {
+          file: file,
+          pkg: pkg,
+          newVersion: newVersion
+        };
+      }
+
+      var config = setup(options.file, type);
+      grunt.file.write(config.file, JSON.stringify(config.pkg, null, '  ') + '\n');
+      grunt.log.ok('Version bumped to ' + config.newVersion);
+    }
+  );
+
+  grunt.registerTask('stage',
+    'git add files before running the release task',
+    function ()
+    {
+      var files = this.options().files;
+      grunt.util.spawn({
+        cmd: process.platform === 'win32' ? 'git.cmd' : 'git',
+        args: ['add'].concat(files)
+      }, grunt.task.current.async());
+    }
+  );
 
   grunt.registerTask('test', [
     'clean:server',
@@ -397,39 +449,11 @@ module.exports = function (grunt)
     'build'
   ]);
 
-
-
-  grunt.registerTask('change', [
-    'changelog'
+  grunt.registerTask('releaser', [
+    'bump',
+    'changelog',
+    'stage',
+    'release'
   ]);
 
-  grunt.registerTask('bump', 'bump manifest version', function (type) {
-    var options = this.options({
-      file: grunt.config('pkgFile') || 'package.json'
-    });
-
-    function setup(file, type) {
-      var pkg = grunt.file.readJSON(file);
-      var newVersion = pkg.version = semver.inc(pkg.version, type || 'patch');
-      return {
-        file: file,
-        pkg: pkg,
-        newVersion: newVersion
-      };
-    }
-
-    var config = setup(options.file, type);
-    grunt.file.write(config.file, JSON.stringify(config.pkg, null, '  ') + '\n');
-    grunt.log.ok('Version bumped to ' + config.newVersion);
-  });
-
-  grunt.registerTask('stage', 'git add files before running the release task', function () {
-    var files = this.options().files;
-    grunt.util.spawn({
-      cmd: process.platform === 'win32' ? 'git.cmd' : 'git',
-      args: ['add'].concat(files)
-    }, grunt.task.current.async());
-  });
-
-  grunt.registerTask('reler', ['bump', 'changelog', 'stage', 'release']);
 };

@@ -21,24 +21,24 @@
 7 verbose parsed url   href: '.' }
 8 silly lockFile 3a52ce78- .
 9 verbose lock . /Users/cengizulusoy/.npm/3a52ce78-.lock
-10 verbose tar pack [ '/var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-1319-tJqlGgab/1375983119289-0.20656884415075183/tmp.tgz',
+10 verbose tar pack [ '/var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-2842-zKUiYyFs/1375983455404-0.8552500288933516/tmp.tgz',
 10 verbose tar pack   '.' ]
-11 verbose tarball /var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-1319-tJqlGgab/1375983119289-0.20656884415075183/tmp.tgz
+11 verbose tarball /var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-2842-zKUiYyFs/1375983455404-0.8552500288933516/tmp.tgz
 12 verbose folder .
-13 info prepublish base@1.0.0
+13 info prepublish base@1.0.452
 14 silly lockFile 1f1177db-tar tar://.
 15 verbose lock tar://. /Users/cengizulusoy/.npm/1f1177db-tar.lock
-16 silly lockFile f402f668-9289-0-20656884415075183-tmp-tgz tar:///var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-1319-tJqlGgab/1375983119289-0.20656884415075183/tmp.tgz
-17 verbose lock tar:///var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-1319-tJqlGgab/1375983119289-0.20656884415075183/tmp.tgz /Users/cengizulusoy/.npm/f402f668-9289-0-20656884415075183-tmp-tgz.lock
+16 silly lockFile 263c751d-55404-0-8552500288933516-tmp-tgz tar:///var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-2842-zKUiYyFs/1375983455404-0.8552500288933516/tmp.tgz
+17 verbose lock tar:///var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-2842-zKUiYyFs/1375983455404-0.8552500288933516/tmp.tgz /Users/cengizulusoy/.npm/263c751d-55404-0-8552500288933516-tmp-tgz.lock
 18 silly lockFile 1f1177db-tar tar://.
 19 silly lockFile 1f1177db-tar tar://.
-20 silly lockFile f402f668-9289-0-20656884415075183-tmp-tgz tar:///var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-1319-tJqlGgab/1375983119289-0.20656884415075183/tmp.tgz
-21 silly lockFile f402f668-9289-0-20656884415075183-tmp-tgz tar:///var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-1319-tJqlGgab/1375983119289-0.20656884415075183/tmp.tgz
-22 verbose tar unpack /var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-1319-tJqlGgab/1375983119289-0.20656884415075183/tmp.tgz
-23 silly lockFile 2547f328-9289-0-20656884415075183-package tar:///var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-1319-tJqlGgab/1375983119289-0.20656884415075183/package
-24 verbose lock tar:///var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-1319-tJqlGgab/1375983119289-0.20656884415075183/package /Users/cengizulusoy/.npm/2547f328-9289-0-20656884415075183-package.lock
-25 silly lockFile f402f668-9289-0-20656884415075183-tmp-tgz tar:///var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-1319-tJqlGgab/1375983119289-0.20656884415075183/tmp.tgz
-26 verbose lock tar:///var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-1319-tJqlGgab/1375983119289-0.20656884415075183/tmp.tgz /Users/cengizulusoy/.npm/f402f668-9289-0-20656884415075183-tmp-tgz.lock
+20 silly lockFile 263c751d-55404-0-8552500288933516-tmp-tgz tar:///var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-2842-zKUiYyFs/1375983455404-0.8552500288933516/tmp.tgz
+21 silly lockFile 263c751d-55404-0-8552500288933516-tmp-tgz tar:///var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-2842-zKUiYyFs/1375983455404-0.8552500288933516/tmp.tgz
+22 verbose tar unpack /var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-2842-zKUiYyFs/1375983455404-0.8552500288933516/tmp.tgz
+23 silly lockFile 94f468f3-55404-0-8552500288933516-package tar:///var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-2842-zKUiYyFs/1375983455404-0.8552500288933516/package
+24 verbose lock tar:///var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-2842-zKUiYyFs/1375983455404-0.8552500288933516/package /Users/cengizulusoy/.npm/94f468f3-55404-0-8552500288933516-package.lock
+25 silly lockFile 263c751d-55404-0-8552500288933516-tmp-tgz tar:///var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-2842-zKUiYyFs/1375983455404-0.8552500288933516/tmp.tgz
+26 verbose lock tar:///var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-2842-zKUiYyFs/1375983455404-0.8552500288933516/tmp.tgz /Users/cengizulusoy/.npm/263c751d-55404-0-8552500288933516-tmp-tgz.lock
 27 silly gunzTarPerm modes [ '755', '644' ]
 28 silly gunzTarPerm extractEntry package.json
 29 silly gunzTarPerm extractEntry .npmignore
@@ -79,31 +79,31 @@
 64 silly gunzTarPerm extractEntry test/e2e/simpleE2ESpec.js
 65 silly gunzTarPerm extractEntry test/spec/main.js
 66 silly gunzTarPerm extractEntry test/spec/services/userServiceSpec.js
-67 silly lockFile 2547f328-9289-0-20656884415075183-package tar:///var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-1319-tJqlGgab/1375983119289-0.20656884415075183/package
-68 silly lockFile 2547f328-9289-0-20656884415075183-package tar:///var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-1319-tJqlGgab/1375983119289-0.20656884415075183/package
-69 silly lockFile f402f668-9289-0-20656884415075183-tmp-tgz tar:///var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-1319-tJqlGgab/1375983119289-0.20656884415075183/tmp.tgz
-70 silly lockFile f402f668-9289-0-20656884415075183-tmp-tgz tar:///var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-1319-tJqlGgab/1375983119289-0.20656884415075183/tmp.tgz
-71 verbose tar pack [ '/Users/cengizulusoy/.npm/base/1.0.0/package.tgz',
-71 verbose tar pack   '/var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-1319-tJqlGgab/1375983119289-0.20656884415075183/package' ]
-72 verbose tarball /Users/cengizulusoy/.npm/base/1.0.0/package.tgz
-73 verbose folder /var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-1319-tJqlGgab/1375983119289-0.20656884415075183/package
-74 silly lockFile 2547f328-9289-0-20656884415075183-package tar:///var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-1319-tJqlGgab/1375983119289-0.20656884415075183/package
-75 verbose lock tar:///var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-1319-tJqlGgab/1375983119289-0.20656884415075183/package /Users/cengizulusoy/.npm/2547f328-9289-0-20656884415075183-package.lock
-76 silly lockFile e1b828cf-lusoy-npm-base-1-0-0-package-tgz tar:///Users/cengizulusoy/.npm/base/1.0.0/package.tgz
-77 verbose lock tar:///Users/cengizulusoy/.npm/base/1.0.0/package.tgz /Users/cengizulusoy/.npm/e1b828cf-lusoy-npm-base-1-0-0-package-tgz.lock
-78 silly lockFile 2547f328-9289-0-20656884415075183-package tar:///var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-1319-tJqlGgab/1375983119289-0.20656884415075183/package
-79 silly lockFile 2547f328-9289-0-20656884415075183-package tar:///var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-1319-tJqlGgab/1375983119289-0.20656884415075183/package
-80 silly lockFile e1b828cf-lusoy-npm-base-1-0-0-package-tgz tar:///Users/cengizulusoy/.npm/base/1.0.0/package.tgz
-81 silly lockFile e1b828cf-lusoy-npm-base-1-0-0-package-tgz tar:///Users/cengizulusoy/.npm/base/1.0.0/package.tgz
-82 silly lockFile 8366c344-gizulusoy-npm-base-1-0-0-package /Users/cengizulusoy/.npm/base/1.0.0/package
-83 verbose lock /Users/cengizulusoy/.npm/base/1.0.0/package /Users/cengizulusoy/.npm/8366c344-gizulusoy-npm-base-1-0-0-package.lock
-84 silly lockFile 8366c344-gizulusoy-npm-base-1-0-0-package /Users/cengizulusoy/.npm/base/1.0.0/package
-85 silly lockFile 8366c344-gizulusoy-npm-base-1-0-0-package /Users/cengizulusoy/.npm/base/1.0.0/package
-86 verbose tar unpack /Users/cengizulusoy/.npm/base/1.0.0/package.tgz
-87 silly lockFile cd689610-gizulusoy-npm-base-1-0-0-package tar:///Users/cengizulusoy/.npm/base/1.0.0/package
-88 verbose lock tar:///Users/cengizulusoy/.npm/base/1.0.0/package /Users/cengizulusoy/.npm/cd689610-gizulusoy-npm-base-1-0-0-package.lock
-89 silly lockFile e1b828cf-lusoy-npm-base-1-0-0-package-tgz tar:///Users/cengizulusoy/.npm/base/1.0.0/package.tgz
-90 verbose lock tar:///Users/cengizulusoy/.npm/base/1.0.0/package.tgz /Users/cengizulusoy/.npm/e1b828cf-lusoy-npm-base-1-0-0-package-tgz.lock
+67 silly lockFile 94f468f3-55404-0-8552500288933516-package tar:///var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-2842-zKUiYyFs/1375983455404-0.8552500288933516/package
+68 silly lockFile 94f468f3-55404-0-8552500288933516-package tar:///var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-2842-zKUiYyFs/1375983455404-0.8552500288933516/package
+69 silly lockFile 263c751d-55404-0-8552500288933516-tmp-tgz tar:///var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-2842-zKUiYyFs/1375983455404-0.8552500288933516/tmp.tgz
+70 silly lockFile 263c751d-55404-0-8552500288933516-tmp-tgz tar:///var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-2842-zKUiYyFs/1375983455404-0.8552500288933516/tmp.tgz
+71 verbose tar pack [ '/Users/cengizulusoy/.npm/base/1.0.452/package.tgz',
+71 verbose tar pack   '/var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-2842-zKUiYyFs/1375983455404-0.8552500288933516/package' ]
+72 verbose tarball /Users/cengizulusoy/.npm/base/1.0.452/package.tgz
+73 verbose folder /var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-2842-zKUiYyFs/1375983455404-0.8552500288933516/package
+74 silly lockFile 94f468f3-55404-0-8552500288933516-package tar:///var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-2842-zKUiYyFs/1375983455404-0.8552500288933516/package
+75 verbose lock tar:///var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-2842-zKUiYyFs/1375983455404-0.8552500288933516/package /Users/cengizulusoy/.npm/94f468f3-55404-0-8552500288933516-package.lock
+76 silly lockFile 96854a90-soy-npm-base-1-0-452-package-tgz tar:///Users/cengizulusoy/.npm/base/1.0.452/package.tgz
+77 verbose lock tar:///Users/cengizulusoy/.npm/base/1.0.452/package.tgz /Users/cengizulusoy/.npm/96854a90-soy-npm-base-1-0-452-package-tgz.lock
+78 silly lockFile 94f468f3-55404-0-8552500288933516-package tar:///var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-2842-zKUiYyFs/1375983455404-0.8552500288933516/package
+79 silly lockFile 94f468f3-55404-0-8552500288933516-package tar:///var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-2842-zKUiYyFs/1375983455404-0.8552500288933516/package
+80 silly lockFile 96854a90-soy-npm-base-1-0-452-package-tgz tar:///Users/cengizulusoy/.npm/base/1.0.452/package.tgz
+81 silly lockFile 96854a90-soy-npm-base-1-0-452-package-tgz tar:///Users/cengizulusoy/.npm/base/1.0.452/package.tgz
+82 silly lockFile 99cce309-zulusoy-npm-base-1-0-452-package /Users/cengizulusoy/.npm/base/1.0.452/package
+83 verbose lock /Users/cengizulusoy/.npm/base/1.0.452/package /Users/cengizulusoy/.npm/99cce309-zulusoy-npm-base-1-0-452-package.lock
+84 silly lockFile 99cce309-zulusoy-npm-base-1-0-452-package /Users/cengizulusoy/.npm/base/1.0.452/package
+85 silly lockFile 99cce309-zulusoy-npm-base-1-0-452-package /Users/cengizulusoy/.npm/base/1.0.452/package
+86 verbose tar unpack /Users/cengizulusoy/.npm/base/1.0.452/package.tgz
+87 silly lockFile 8e41225a-zulusoy-npm-base-1-0-452-package tar:///Users/cengizulusoy/.npm/base/1.0.452/package
+88 verbose lock tar:///Users/cengizulusoy/.npm/base/1.0.452/package /Users/cengizulusoy/.npm/8e41225a-zulusoy-npm-base-1-0-452-package.lock
+89 silly lockFile 96854a90-soy-npm-base-1-0-452-package-tgz tar:///Users/cengizulusoy/.npm/base/1.0.452/package.tgz
+90 verbose lock tar:///Users/cengizulusoy/.npm/base/1.0.452/package.tgz /Users/cengizulusoy/.npm/96854a90-soy-npm-base-1-0-452-package-tgz.lock
 91 silly gunzTarPerm modes [ '755', '644' ]
 92 silly gunzTarPerm extractEntry package.json
 93 silly gunzTarPerm extractEntry .npmignore
@@ -144,16 +144,16 @@
 128 silly gunzTarPerm extractEntry test/e2e/simpleE2ESpec.js
 129 silly gunzTarPerm extractEntry test/spec/main.js
 130 silly gunzTarPerm extractEntry test/spec/services/userServiceSpec.js
-131 silly lockFile cd689610-gizulusoy-npm-base-1-0-0-package tar:///Users/cengizulusoy/.npm/base/1.0.0/package
-132 silly lockFile cd689610-gizulusoy-npm-base-1-0-0-package tar:///Users/cengizulusoy/.npm/base/1.0.0/package
-133 silly lockFile e1b828cf-lusoy-npm-base-1-0-0-package-tgz tar:///Users/cengizulusoy/.npm/base/1.0.0/package.tgz
-134 silly lockFile e1b828cf-lusoy-npm-base-1-0-0-package-tgz tar:///Users/cengizulusoy/.npm/base/1.0.0/package.tgz
-135 verbose chmod /Users/cengizulusoy/.npm/base/1.0.0/package.tgz 644
-136 verbose chown /Users/cengizulusoy/.npm/base/1.0.0/package.tgz [ 502, 20 ]
+131 silly lockFile 8e41225a-zulusoy-npm-base-1-0-452-package tar:///Users/cengizulusoy/.npm/base/1.0.452/package
+132 silly lockFile 8e41225a-zulusoy-npm-base-1-0-452-package tar:///Users/cengizulusoy/.npm/base/1.0.452/package
+133 silly lockFile 96854a90-soy-npm-base-1-0-452-package-tgz tar:///Users/cengizulusoy/.npm/base/1.0.452/package.tgz
+134 silly lockFile 96854a90-soy-npm-base-1-0-452-package-tgz tar:///Users/cengizulusoy/.npm/base/1.0.452/package.tgz
+135 verbose chmod /Users/cengizulusoy/.npm/base/1.0.452/package.tgz 644
+136 verbose chown /Users/cengizulusoy/.npm/base/1.0.452/package.tgz [ 502, 20 ]
 137 silly lockFile 3a52ce78- .
 138 silly lockFile 3a52ce78- .
 139 silly publish { name: 'base',
-139 silly publish   version: '1.0.0',
+139 silly publish   version: '1.0.452',
 139 silly publish   dependencies: {},
 139 silly publish   devDependencies:
 139 silly publish    { grunt: '~0.4.1',
@@ -199,36 +199,36 @@
 139 silly publish   readme: 'base\n====\n\n[![Build Status](https://travis-ci.org/Cengizism/base.png?branch=master)](https://travis-ci.org/Cengizism/base)\n\n[![Dependency Status](https://gemnasium.com/Cengizism/base.png)](https://gemnasium.com/Cengizism/base)\n\nThis is a ground base project for my angular projects with the flavours like angular seed,\nyeoman angular-generator framework, requirejs, jade, sass, twitter bootstrap and html5 boilerplate, unit testing and\ne2e testing with karma and jasmine, many helpful grunt plugins and many more..\n',
 139 silly publish   readmeFilename: 'README.md',
 139 silly publish   description: 'base ====',
-139 silly publish   _id: 'base@1.0.0',
-139 silly publish   dist: { shasum: '28556455fd1b2a7f36bb36cd626592796457bf95' },
+139 silly publish   _id: 'base@1.0.452',
+139 silly publish   dist: { shasum: '68bb222e54f1e7a0191e6c8015cdc292577625d0' },
 139 silly publish   _from: '.' }
 140 verbose url raw base
 141 verbose url resolving [ 'https://registry.npmjs.org/', './base' ]
 142 verbose url resolved https://registry.npmjs.org/base
-143 info trying registry request attempt 1 at 19:32:01
+143 info trying registry request attempt 1 at 19:37:35
 144 http PUT https://registry.npmjs.org/base
 145 http 409 https://registry.npmjs.org/base
 146 verbose url raw base
 147 verbose url resolving [ 'https://registry.npmjs.org/', './base' ]
 148 verbose url resolved https://registry.npmjs.org/base
-149 info trying registry request attempt 1 at 19:32:02
+149 info trying registry request attempt 1 at 19:37:36
 150 http GET https://registry.npmjs.org/base
 151 http 200 https://registry.npmjs.org/base
-152 verbose uploading [ 'base/-/base-1.0.0.tgz/-rev/31-9279785b31d665621a9d05fd89afc82e',
-152 verbose uploading   '/Users/cengizulusoy/.npm/base/1.0.0/package.tgz' ]
-153 verbose url raw base/-/base-1.0.0.tgz/-rev/31-9279785b31d665621a9d05fd89afc82e
+152 verbose uploading [ 'base/-/base-1.0.452.tgz/-rev/31-9279785b31d665621a9d05fd89afc82e',
+152 verbose uploading   '/Users/cengizulusoy/.npm/base/1.0.452/package.tgz' ]
+153 verbose url raw base/-/base-1.0.452.tgz/-rev/31-9279785b31d665621a9d05fd89afc82e
 154 verbose url resolving [ 'https://registry.npmjs.org/',
-154 verbose url resolving   './base/-/base-1.0.0.tgz/-rev/31-9279785b31d665621a9d05fd89afc82e' ]
-155 verbose url resolved https://registry.npmjs.org/base/-/base-1.0.0.tgz/-rev/31-9279785b31d665621a9d05fd89afc82e
-156 info trying registry request attempt 1 at 19:32:03
-157 http PUT https://registry.npmjs.org/base/-/base-1.0.0.tgz/-rev/31-9279785b31d665621a9d05fd89afc82e
-158 http 403 https://registry.npmjs.org/base/-/base-1.0.0.tgz/-rev/31-9279785b31d665621a9d05fd89afc82e
-159 info trying registry request attempt 1 at 19:32:05
-160 http PUT https://registry.npmjs.org/base/-/base-1.0.0.tgz/-rev/31-9279785b31d665621a9d05fd89afc82e
-161 http 403 https://registry.npmjs.org/base/-/base-1.0.0.tgz/-rev/31-9279785b31d665621a9d05fd89afc82e
+154 verbose url resolving   './base/-/base-1.0.452.tgz/-rev/31-9279785b31d665621a9d05fd89afc82e' ]
+155 verbose url resolved https://registry.npmjs.org/base/-/base-1.0.452.tgz/-rev/31-9279785b31d665621a9d05fd89afc82e
+156 info trying registry request attempt 1 at 19:37:37
+157 http PUT https://registry.npmjs.org/base/-/base-1.0.452.tgz/-rev/31-9279785b31d665621a9d05fd89afc82e
+158 http 403 https://registry.npmjs.org/base/-/base-1.0.452.tgz/-rev/31-9279785b31d665621a9d05fd89afc82e
+159 info trying registry request attempt 1 at 19:37:39
+160 http PUT https://registry.npmjs.org/base/-/base-1.0.452.tgz/-rev/31-9279785b31d665621a9d05fd89afc82e
+161 http 403 https://registry.npmjs.org/base/-/base-1.0.452.tgz/-rev/31-9279785b31d665621a9d05fd89afc82e
 162 error publish Error uploading package
 163 error Error: forbidden user: cengizulusoy not authorized to modify base
-163 error Added: _attachments.base-1.0.0.tgz: base/-/base-1.0.0.tgz/-rev/31-9279785b31d665621a9d05fd89afc82e
+163 error Added: _attachments.base-1.0.452.tgz: base/-/base-1.0.452.tgz/-rev/31-9279785b31d665621a9d05fd89afc82e
 163 error     at RegClient.<anonymous> (/Users/cengizulusoy/.nvm/v0.10.15/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:272:14)
 163 error     at Request.self.callback (/Users/cengizulusoy/.nvm/v0.10.15/lib/node_modules/npm/node_modules/request/index.js:148:22)
 163 error     at Request.EventEmitter.emit (events.js:98:17)
