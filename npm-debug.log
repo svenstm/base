@@ -1,0 +1,250 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/cengizulusoy/.nvm/v0.10.15/bin/node',
+1 verbose cli   '/Users/cengizulusoy/.nvm/v0.10.15/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@1.3.5
+3 info using node@v0.10.15
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/cengizulusoy/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-1319-tJqlGgab/1375983119289-0.20656884415075183/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-1319-tJqlGgab/1375983119289-0.20656884415075183/tmp.tgz
+12 verbose folder .
+13 info prepublish base@1.0.0
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/cengizulusoy/.npm/1f1177db-tar.lock
+16 silly lockFile f402f668-9289-0-20656884415075183-tmp-tgz tar:///var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-1319-tJqlGgab/1375983119289-0.20656884415075183/tmp.tgz
+17 verbose lock tar:///var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-1319-tJqlGgab/1375983119289-0.20656884415075183/tmp.tgz /Users/cengizulusoy/.npm/f402f668-9289-0-20656884415075183-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile f402f668-9289-0-20656884415075183-tmp-tgz tar:///var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-1319-tJqlGgab/1375983119289-0.20656884415075183/tmp.tgz
+21 silly lockFile f402f668-9289-0-20656884415075183-tmp-tgz tar:///var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-1319-tJqlGgab/1375983119289-0.20656884415075183/tmp.tgz
+22 verbose tar unpack /var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-1319-tJqlGgab/1375983119289-0.20656884415075183/tmp.tgz
+23 silly lockFile 2547f328-9289-0-20656884415075183-package tar:///var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-1319-tJqlGgab/1375983119289-0.20656884415075183/package
+24 verbose lock tar:///var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-1319-tJqlGgab/1375983119289-0.20656884415075183/package /Users/cengizulusoy/.npm/2547f328-9289-0-20656884415075183-package.lock
+25 silly lockFile f402f668-9289-0-20656884415075183-tmp-tgz tar:///var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-1319-tJqlGgab/1375983119289-0.20656884415075183/tmp.tgz
+26 verbose lock tar:///var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-1319-tJqlGgab/1375983119289-0.20656884415075183/tmp.tgz /Users/cengizulusoy/.npm/f402f668-9289-0-20656884415075183-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry .npmignore
+30 silly gunzTarPerm extractEntry README.md
+31 silly gunzTarPerm extractEntry Gruntfile.js
+32 silly gunzTarPerm extractEntry karma-e2e.conf.js
+33 silly gunzTarPerm extractEntry karma.conf.js
+34 silly gunzTarPerm extractEntry CHANGELOG.md
+35 silly gunzTarPerm extractEntry .gitattributes
+36 silly gunzTarPerm extractEntry .editorconfig
+37 silly gunzTarPerm extractEntry TODOS.md
+38 silly gunzTarPerm extractEntry app/.buildignore
+39 silly gunzTarPerm extractEntry app/.htaccess
+40 silly gunzTarPerm extractEntry app/404.jade
+41 silly gunzTarPerm extractEntry app/favicon.ico
+42 silly gunzTarPerm extractEntry app/images/glyphicons-halflings-white.png
+43 silly gunzTarPerm extractEntry app/images/glyphicons-halflings.png
+44 silly gunzTarPerm extractEntry app/index.jade
+45 silly gunzTarPerm extractEntry app/robots.txt
+46 silly gunzTarPerm extractEntry app/scripts/app.js
+47 silly gunzTarPerm extractEntry app/scripts/main.js
+48 silly gunzTarPerm extractEntry app/scripts/controllers/controllers.js
+49 silly gunzTarPerm extractEntry app/scripts/controllers/partial1.js
+50 silly gunzTarPerm extractEntry app/scripts/controllers/partial2.js
+51 silly gunzTarPerm extractEntry app/scripts/directives/directives.js
+52 silly gunzTarPerm extractEntry app/scripts/directives/ngbkFocus.js
+53 silly gunzTarPerm extractEntry app/scripts/filters/filters.js
+54 silly gunzTarPerm extractEntry app/scripts/services/services.js
+55 silly gunzTarPerm extractEntry app/scripts/services/userService.js
+56 silly gunzTarPerm extractEntry app/styles/main.scss
+57 silly gunzTarPerm extractEntry app/views/partial1.jade
+58 silly gunzTarPerm extractEntry app/views/partial2.jade
+59 silly gunzTarPerm extractEntry bower.json
+60 silly gunzTarPerm extractEntry .bowerrc
+61 silly gunzTarPerm extractEntry .jshintrc
+62 silly gunzTarPerm extractEntry .travis.yml
+63 silly gunzTarPerm extractEntry test/.jshintrc
+64 silly gunzTarPerm extractEntry test/e2e/simpleE2ESpec.js
+65 silly gunzTarPerm extractEntry test/spec/main.js
+66 silly gunzTarPerm extractEntry test/spec/services/userServiceSpec.js
+67 silly lockFile 2547f328-9289-0-20656884415075183-package tar:///var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-1319-tJqlGgab/1375983119289-0.20656884415075183/package
+68 silly lockFile 2547f328-9289-0-20656884415075183-package tar:///var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-1319-tJqlGgab/1375983119289-0.20656884415075183/package
+69 silly lockFile f402f668-9289-0-20656884415075183-tmp-tgz tar:///var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-1319-tJqlGgab/1375983119289-0.20656884415075183/tmp.tgz
+70 silly lockFile f402f668-9289-0-20656884415075183-tmp-tgz tar:///var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-1319-tJqlGgab/1375983119289-0.20656884415075183/tmp.tgz
+71 verbose tar pack [ '/Users/cengizulusoy/.npm/base/1.0.0/package.tgz',
+71 verbose tar pack   '/var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-1319-tJqlGgab/1375983119289-0.20656884415075183/package' ]
+72 verbose tarball /Users/cengizulusoy/.npm/base/1.0.0/package.tgz
+73 verbose folder /var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-1319-tJqlGgab/1375983119289-0.20656884415075183/package
+74 silly lockFile 2547f328-9289-0-20656884415075183-package tar:///var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-1319-tJqlGgab/1375983119289-0.20656884415075183/package
+75 verbose lock tar:///var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-1319-tJqlGgab/1375983119289-0.20656884415075183/package /Users/cengizulusoy/.npm/2547f328-9289-0-20656884415075183-package.lock
+76 silly lockFile e1b828cf-lusoy-npm-base-1-0-0-package-tgz tar:///Users/cengizulusoy/.npm/base/1.0.0/package.tgz
+77 verbose lock tar:///Users/cengizulusoy/.npm/base/1.0.0/package.tgz /Users/cengizulusoy/.npm/e1b828cf-lusoy-npm-base-1-0-0-package-tgz.lock
+78 silly lockFile 2547f328-9289-0-20656884415075183-package tar:///var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-1319-tJqlGgab/1375983119289-0.20656884415075183/package
+79 silly lockFile 2547f328-9289-0-20656884415075183-package tar:///var/folders/n9/1lbh2_0s3qx6wqvl627h_2580000gp/T/npm-1319-tJqlGgab/1375983119289-0.20656884415075183/package
+80 silly lockFile e1b828cf-lusoy-npm-base-1-0-0-package-tgz tar:///Users/cengizulusoy/.npm/base/1.0.0/package.tgz
+81 silly lockFile e1b828cf-lusoy-npm-base-1-0-0-package-tgz tar:///Users/cengizulusoy/.npm/base/1.0.0/package.tgz
+82 silly lockFile 8366c344-gizulusoy-npm-base-1-0-0-package /Users/cengizulusoy/.npm/base/1.0.0/package
+83 verbose lock /Users/cengizulusoy/.npm/base/1.0.0/package /Users/cengizulusoy/.npm/8366c344-gizulusoy-npm-base-1-0-0-package.lock
+84 silly lockFile 8366c344-gizulusoy-npm-base-1-0-0-package /Users/cengizulusoy/.npm/base/1.0.0/package
+85 silly lockFile 8366c344-gizulusoy-npm-base-1-0-0-package /Users/cengizulusoy/.npm/base/1.0.0/package
+86 verbose tar unpack /Users/cengizulusoy/.npm/base/1.0.0/package.tgz
+87 silly lockFile cd689610-gizulusoy-npm-base-1-0-0-package tar:///Users/cengizulusoy/.npm/base/1.0.0/package
+88 verbose lock tar:///Users/cengizulusoy/.npm/base/1.0.0/package /Users/cengizulusoy/.npm/cd689610-gizulusoy-npm-base-1-0-0-package.lock
+89 silly lockFile e1b828cf-lusoy-npm-base-1-0-0-package-tgz tar:///Users/cengizulusoy/.npm/base/1.0.0/package.tgz
+90 verbose lock tar:///Users/cengizulusoy/.npm/base/1.0.0/package.tgz /Users/cengizulusoy/.npm/e1b828cf-lusoy-npm-base-1-0-0-package-tgz.lock
+91 silly gunzTarPerm modes [ '755', '644' ]
+92 silly gunzTarPerm extractEntry package.json
+93 silly gunzTarPerm extractEntry .npmignore
+94 silly gunzTarPerm extractEntry README.md
+95 silly gunzTarPerm extractEntry Gruntfile.js
+96 silly gunzTarPerm extractEntry karma-e2e.conf.js
+97 silly gunzTarPerm extractEntry karma.conf.js
+98 silly gunzTarPerm extractEntry CHANGELOG.md
+99 silly gunzTarPerm extractEntry .gitattributes
+100 silly gunzTarPerm extractEntry .editorconfig
+101 silly gunzTarPerm extractEntry TODOS.md
+102 silly gunzTarPerm extractEntry app/.buildignore
+103 silly gunzTarPerm extractEntry app/.htaccess
+104 silly gunzTarPerm extractEntry app/404.jade
+105 silly gunzTarPerm extractEntry app/favicon.ico
+106 silly gunzTarPerm extractEntry app/images/glyphicons-halflings-white.png
+107 silly gunzTarPerm extractEntry app/images/glyphicons-halflings.png
+108 silly gunzTarPerm extractEntry app/index.jade
+109 silly gunzTarPerm extractEntry app/robots.txt
+110 silly gunzTarPerm extractEntry app/scripts/app.js
+111 silly gunzTarPerm extractEntry app/scripts/main.js
+112 silly gunzTarPerm extractEntry app/scripts/controllers/controllers.js
+113 silly gunzTarPerm extractEntry app/scripts/controllers/partial1.js
+114 silly gunzTarPerm extractEntry app/scripts/controllers/partial2.js
+115 silly gunzTarPerm extractEntry app/scripts/directives/directives.js
+116 silly gunzTarPerm extractEntry app/scripts/directives/ngbkFocus.js
+117 silly gunzTarPerm extractEntry app/scripts/filters/filters.js
+118 silly gunzTarPerm extractEntry app/scripts/services/services.js
+119 silly gunzTarPerm extractEntry app/scripts/services/userService.js
+120 silly gunzTarPerm extractEntry app/styles/main.scss
+121 silly gunzTarPerm extractEntry app/views/partial1.jade
+122 silly gunzTarPerm extractEntry app/views/partial2.jade
+123 silly gunzTarPerm extractEntry bower.json
+124 silly gunzTarPerm extractEntry .jshintrc
+125 silly gunzTarPerm extractEntry .bowerrc
+126 silly gunzTarPerm extractEntry .travis.yml
+127 silly gunzTarPerm extractEntry test/.jshintrc
+128 silly gunzTarPerm extractEntry test/e2e/simpleE2ESpec.js
+129 silly gunzTarPerm extractEntry test/spec/main.js
+130 silly gunzTarPerm extractEntry test/spec/services/userServiceSpec.js
+131 silly lockFile cd689610-gizulusoy-npm-base-1-0-0-package tar:///Users/cengizulusoy/.npm/base/1.0.0/package
+132 silly lockFile cd689610-gizulusoy-npm-base-1-0-0-package tar:///Users/cengizulusoy/.npm/base/1.0.0/package
+133 silly lockFile e1b828cf-lusoy-npm-base-1-0-0-package-tgz tar:///Users/cengizulusoy/.npm/base/1.0.0/package.tgz
+134 silly lockFile e1b828cf-lusoy-npm-base-1-0-0-package-tgz tar:///Users/cengizulusoy/.npm/base/1.0.0/package.tgz
+135 verbose chmod /Users/cengizulusoy/.npm/base/1.0.0/package.tgz 644
+136 verbose chown /Users/cengizulusoy/.npm/base/1.0.0/package.tgz [ 502, 20 ]
+137 silly lockFile 3a52ce78- .
+138 silly lockFile 3a52ce78- .
+139 silly publish { name: 'base',
+139 silly publish   version: '1.0.0',
+139 silly publish   dependencies: {},
+139 silly publish   devDependencies:
+139 silly publish    { grunt: '~0.4.1',
+139 silly publish      'grunt-contrib-copy': '~0.4.1',
+139 silly publish      'grunt-contrib-concat': '~0.3.0',
+139 silly publish      'grunt-contrib-uglify': '~0.2.0',
+139 silly publish      'grunt-contrib-compass': '~0.4.1',
+139 silly publish      'grunt-contrib-jshint': '~0.6.0',
+139 silly publish      'grunt-contrib-cssmin': '~0.6.0',
+139 silly publish      'grunt-contrib-connect': '~0.3.0',
+139 silly publish      'grunt-contrib-clean': '~0.5.0',
+139 silly publish      'grunt-contrib-htmlmin': '~0.1.3',
+139 silly publish      'grunt-contrib-imagemin': '~0.1.4',
+139 silly publish      'grunt-contrib-watch': '~0.5.1',
+139 silly publish      'grunt-contrib-jade': '~0.8.0',
+139 silly publish      'grunt-contrib-requirejs': '~0.4.1',
+139 silly publish      'grunt-usemin': '~0.1.11',
+139 silly publish      'grunt-rev': '~0.1.0',
+139 silly publish      'grunt-karma': '~0.7.0',
+139 silly publish      'grunt-open': '~0.2.0',
+139 silly publish      'grunt-concurrent': '~0.3.0',
+139 silly publish      'grunt-ngmin': '~0.0.2',
+139 silly publish      matchdep: '~0.1.2',
+139 silly publish      'connect-livereload': '~0.2.0',
+139 silly publish      karma: '~0.10.1',
+139 silly publish      'karma-script-launcher': '~0.1.0',
+139 silly publish      'karma-chrome-launcher': '~0.1.0',
+139 silly publish      'karma-firefox-launcher': '~0.1.0',
+139 silly publish      'karma-html2js-preprocessor': '~0.1.0',
+139 silly publish      'karma-jasmine': '~0.1.0',
+139 silly publish      'karma-requirejs': '~0.1.0',
+139 silly publish      'karma-coffee-preprocessor': '~0.1.0',
+139 silly publish      'karma-phantomjs-launcher': '~0.1.0',
+139 silly publish      'karma-ng-scenario': '~0.1.0',
+139 silly publish      'grunt-release': '~0.5.1',
+139 silly publish      'grunt-conventional-changelog': '~1.0.0',
+139 silly publish      marked: '~0.2.9',
+139 silly publish      semver: '~2.1.0' },
+139 silly publish   engines: { node: '>=0.8.0' },
+139 silly publish   repository: { type: 'git', url: 'Cengizism/base' },
+139 silly publish   scripts: { test: 'grunt test' },
+139 silly publish   licenses: [ { type: 'BSD' } ],
+139 silly publish   readme: 'base\n====\n\n[![Build Status](https://travis-ci.org/Cengizism/base.png?branch=master)](https://travis-ci.org/Cengizism/base)\n\n[![Dependency Status](https://gemnasium.com/Cengizism/base.png)](https://gemnasium.com/Cengizism/base)\n\nThis is a ground base project for my angular projects with the flavours like angular seed,\nyeoman angular-generator framework, requirejs, jade, sass, twitter bootstrap and html5 boilerplate, unit testing and\ne2e testing with karma and jasmine, many helpful grunt plugins and many more..\n',
+139 silly publish   readmeFilename: 'README.md',
+139 silly publish   description: 'base ====',
+139 silly publish   _id: 'base@1.0.0',
+139 silly publish   dist: { shasum: '28556455fd1b2a7f36bb36cd626592796457bf95' },
+139 silly publish   _from: '.' }
+140 verbose url raw base
+141 verbose url resolving [ 'https://registry.npmjs.org/', './base' ]
+142 verbose url resolved https://registry.npmjs.org/base
+143 info trying registry request attempt 1 at 19:32:01
+144 http PUT https://registry.npmjs.org/base
+145 http 409 https://registry.npmjs.org/base
+146 verbose url raw base
+147 verbose url resolving [ 'https://registry.npmjs.org/', './base' ]
+148 verbose url resolved https://registry.npmjs.org/base
+149 info trying registry request attempt 1 at 19:32:02
+150 http GET https://registry.npmjs.org/base
+151 http 200 https://registry.npmjs.org/base
+152 verbose uploading [ 'base/-/base-1.0.0.tgz/-rev/31-9279785b31d665621a9d05fd89afc82e',
+152 verbose uploading   '/Users/cengizulusoy/.npm/base/1.0.0/package.tgz' ]
+153 verbose url raw base/-/base-1.0.0.tgz/-rev/31-9279785b31d665621a9d05fd89afc82e
+154 verbose url resolving [ 'https://registry.npmjs.org/',
+154 verbose url resolving   './base/-/base-1.0.0.tgz/-rev/31-9279785b31d665621a9d05fd89afc82e' ]
+155 verbose url resolved https://registry.npmjs.org/base/-/base-1.0.0.tgz/-rev/31-9279785b31d665621a9d05fd89afc82e
+156 info trying registry request attempt 1 at 19:32:03
+157 http PUT https://registry.npmjs.org/base/-/base-1.0.0.tgz/-rev/31-9279785b31d665621a9d05fd89afc82e
+158 http 403 https://registry.npmjs.org/base/-/base-1.0.0.tgz/-rev/31-9279785b31d665621a9d05fd89afc82e
+159 info trying registry request attempt 1 at 19:32:05
+160 http PUT https://registry.npmjs.org/base/-/base-1.0.0.tgz/-rev/31-9279785b31d665621a9d05fd89afc82e
+161 http 403 https://registry.npmjs.org/base/-/base-1.0.0.tgz/-rev/31-9279785b31d665621a9d05fd89afc82e
+162 error publish Error uploading package
+163 error Error: forbidden user: cengizulusoy not authorized to modify base
+163 error Added: _attachments.base-1.0.0.tgz: base/-/base-1.0.0.tgz/-rev/31-9279785b31d665621a9d05fd89afc82e
+163 error     at RegClient.<anonymous> (/Users/cengizulusoy/.nvm/v0.10.15/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:272:14)
+163 error     at Request.self.callback (/Users/cengizulusoy/.nvm/v0.10.15/lib/node_modules/npm/node_modules/request/index.js:148:22)
+163 error     at Request.EventEmitter.emit (events.js:98:17)
+163 error     at Request.<anonymous> (/Users/cengizulusoy/.nvm/v0.10.15/lib/node_modules/npm/node_modules/request/index.js:876:14)
+163 error     at Request.EventEmitter.emit (events.js:117:20)
+163 error     at IncomingMessage.<anonymous> (/Users/cengizulusoy/.nvm/v0.10.15/lib/node_modules/npm/node_modules/request/index.js:827:12)
+163 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+163 error     at _stream_readable.js:910:16
+163 error     at process._tickCallback (node.js:415:13)
+164 error If you need help, you may report this log at:
+164 error     <http://github.com/isaacs/npm/issues>
+164 error or email it to:
+164 error     <npm-@googlegroups.com>
+165 error System Darwin 12.4.0
+166 error command "/Users/cengizulusoy/.nvm/v0.10.15/bin/node" "/Users/cengizulusoy/.nvm/v0.10.15/bin/npm" "publish"
+167 error cwd /Users/cengizulusoy/Workspace/base
+168 error node -v v0.10.15
+169 error npm -v 1.3.5
+170 verbose exit [ 1, true ]
