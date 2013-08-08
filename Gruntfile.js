@@ -449,11 +449,25 @@ module.exports = function (grunt)
     'build'
   ]);
 
-  grunt.registerTask('releaser', [
-    'bump',
+  grunt.registerTask('_patch', [
+    'bump:patch',
     'changelog',
     'stage',
-    'release'
+    'release:patch'
+  ]);
+
+  grunt.registerTask('_minor', [
+    'bump:patch',
+    'changelog',
+    'stage',
+    'release:patch'
+  ]);
+
+  grunt.registerTask('_major', [
+    'bump:patch',
+    'changelog',
+    'stage',
+    'release:patch'
   ]);
 
 };
