@@ -45,7 +45,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Cengizism/base.git"
+    "url": "git://github.com/Cengizism/base.git"
   },
   "scripts": {
     "test": "grunt test"

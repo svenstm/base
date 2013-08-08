@@ -397,11 +397,11 @@ module.exports = function (grunt)
     'build'
   ]);
 
+
+
   grunt.registerTask('change', [
     'changelog'
   ]);
-
-
 
   grunt.registerTask('bump', 'bump manifest version', function (type) {
     var options = this.options({
