@@ -1,6 +1,6 @@
 {
   "name": "base",
-  "version": "0.0.0",
+  "version": "0.0.3",
   "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4.1",
@@ -34,7 +34,11 @@
     "karma-requirejs": "~0.1.0",
     "karma-coffee-preprocessor": "~0.1.0",
     "karma-phantomjs-launcher": "~0.1.0",
-    "karma-ng-scenario": "~0.1.0"
+    "karma-ng-scenario": "~0.1.0",
+    "grunt-release": "~0.5.1",
+    "grunt-conventional-changelog": "~1.0.0",
+    "marked": "~0.2.9",
+    "semver": "~2.1.0"
   },
   "engines": {
     "node": ">=0.8.0"
